@@ -5,8 +5,13 @@
 	$r=array($k=>$characters[$k]);
 	unset($characters[$k]);
 	return $r;
+<<<<<<< HEAD
 }*/
 $characters= array("Hiruni","Jehan Fernando","Maldeniya","Maldeniya's Dog","Telan","Ostin aiya" );
+=======
+}
+*/$characters= array("Hiruni","Jehan Fernando","Maldeniya","Maldeniya's Dog","Telan","Ostin aiya" );
+>>>>>>> ba3b3dfe25cded6ddb5fb9e08a7cefd4d42825ce
 $k = array_rand($characters);
 $v = $characters[$k];
 
