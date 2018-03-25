@@ -8,9 +8,6 @@ require '../vendor/autoload.php';
 <<<<<<< HEAD
 }*/
 $characters= array("Hiruni","Jehan Fernando","Maldeniya","Maldeniya's Dog","Telan","Ostin aiya" );
-
-}
-
 $k = array_rand($characters);
 $v = $characters[$k];
 
