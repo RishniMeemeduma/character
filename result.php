@@ -6,14 +6,14 @@
 	unset($characters[$k]);
 	return $r;
 }*/
-/*$characters= array("Hiruni","Jehan Fernando","Maldeniya","Maldeniya's Dog","Telan","Ostin aiya" );
+$characters= array("Hiruni","Jehan Fernando","Maldeniya","Maldeniya's Dog","Telan","Ostin aiya" );
 $k = array_rand($characters);
 $v = $characters[$k];
 
 print_r($v);
 if($v == 'Hiruni'){
 	
-}*/
+}
 
 
 // Create image
