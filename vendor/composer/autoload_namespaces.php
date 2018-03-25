@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'NMC' => array($vendorDir . '/nmcteam/image-with-text/src'),
 );

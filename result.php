@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 /*function array_kshift($characters){
 	list($k)=array_keys($characters);
 	$r=array($k=>$characters[$k]);
