@@ -18,7 +18,7 @@ if($v == 'Hiruni'){
 
 
 // Create image
-$image = new \NMC\ImageWithText\Image(dirname(__FILE__) . '/source.jpg');
+/*$image = new \NMC\ImageWithText\Image(dirname(__FILE__) . '/source.jpg');
 
 // Add styled text to image
 $text1 = new \NMC\ImageWithText\Text('Thanks for using our image text PHP library!', 3, 25);
@@ -43,5 +43,5 @@ $text2->startY = 140;
 $image->addText($text2);
 
 // Render image
-$image->render(dirname(__FILE__) . '/destination.jpg');
+$image->render(dirname(__FILE__) . '/destination.jpg');*/
 ?>
