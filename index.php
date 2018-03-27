@@ -30,6 +30,10 @@
 		  padding: 20px 30px;
 		  border-radius: 20px;
 			}
+	    .login_to_fb:hover{
+		    text-decoration:none;
+		    color:#fff;
+			}
             .button{background-color: rgba(255,255,255,0.1);
             			position: absolute;
                   width: 200px;
