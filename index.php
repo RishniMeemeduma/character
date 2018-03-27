@@ -95,7 +95,7 @@
       $fb = new \Facebook\Facebook([
         'app_id' => '178728269598594',
         'app_secret' => '34759706ffb61f4b9add1dae533ca766',
-        'default_graph_version' => 'v2.10',
+        'default_graph_version' => 'v2.2',
         //'default_access_token' => '{access-token}', // optional
       ]);
 
@@ -104,9 +104,9 @@
       //   $helper = $fb->getJavaScriptHelper();
       //   $helper = $fb->getCanvasHelper();
       //   $helper = $fb->getPageTabHelper();
-         $permissions=['user_name','user_likes'];
+         $permissions=['email'];
          $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
-         echo '<a href="'.$loginUrl.'" class="login_to_fb">Log in with Facebook!</a>'
+         echo '<a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb">Log in with Facebook!</a>'
     ?>
 		<div >
 			<h1 class="topic">Find your Koombiyo Character</h1>
