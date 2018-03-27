@@ -93,7 +93,7 @@
       //   $helper = $fb->getPageTabHelper();
          $permissions=['user_name','user_likes'];
          $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
-         echo '<a href="'.$loginUrl.'">Log in with Facebook!</a>'
+         echo '<a href="'.$loginUrl.'" class="login_to_fb">Log in with Facebook!</a>'
     ?>
 		<div >
 			<h1 class="topic">Find your Koombiyo Character</h1>
