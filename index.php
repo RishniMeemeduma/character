@@ -24,7 +24,7 @@
 	    .login_to_fb{
 		  position: absolute;
 		  display: block;
-		  left: 50%;
+		  calc(50% - 100px);
 		  top: 285px;
 		  background-color: #3b5998;
 		  padding: 20px 30px;
