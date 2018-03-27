@@ -1,6 +1,6 @@
 $fb = new Facebook\Facebook([
-  'app_id' => '{app-id}', // Replace {app-id} with your app id
-  'app_secret' => '{app-secret}',
+  'app_id' => '178728269598594', // Replace {app-id} with your app id
+  'app_secret' => '34759706ffb61f4b9add1dae533ca766',
   'default_graph_version' => 'v2.2',
   ]);
 
