@@ -22,7 +22,9 @@ try {
 $user = $response->getGraphUser();
 
 echo 'Name: ' . $user['name'];
-echo 'Profile Picture' . $user['picture'];
+$picture=$user['picture'];
+$pc = json_decode($picture);
+echo $pic->url;
 
 /*function array_kshift($characters){
 	list($k)=array_keys($characters);
