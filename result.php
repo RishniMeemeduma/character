@@ -1,17 +1,6 @@
 <?php
+session_start();
 require 'vendor/autoload.php';
-/*function array_kshift($characters){
-	list($k)=array_keys($characters);
-	$r=array($k=>$characters[$k]);
-	unset($characters[$k]);
-	return $r;
-<<<<<<< HEAD
-}*/
-$characters= array("Hiruni","Jehan Fernando","Maldeniya","Maldeniya's Dog","Telan","Ostin aiya" );
-$k = array_rand($characters);
-$v = $characters[$k];
-
-print_r($v);
 
 $fb = new Facebook\Facebook([
   'app_id' => '178728269598594',
@@ -33,6 +22,19 @@ try {
 $user = $response->getGraphUser();
 
 echo 'Name: ' . $user['name'];
+
+/*function array_kshift($characters){
+	list($k)=array_keys($characters);
+	$r=array($k=>$characters[$k]);
+	unset($characters[$k]);
+	return $r;
+<<<<<<< HEAD
+}*/
+$characters= array("Hiruni","Jehan Fernando","Maldeniya","Maldeniya's Dog","Telan","Ostin aiya" );
+$k = array_rand($characters);
+$v = $characters[$k];
+
+print_r($v);
 
 // Create image
 /*$image = new \NMC\ImageWithText\Image(dirname(__FILE__) . '/source.jpg');
