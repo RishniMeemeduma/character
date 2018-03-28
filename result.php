@@ -22,6 +22,7 @@ try {
 $user = $response->getGraphUser();
 
 echo 'Name: ' . $user['name'];
+echo 'Profile Picture' . $user['picture'];
 
 /*function array_kshift($characters){
 	list($k)=array_keys($characters);
