@@ -1,4 +1,5 @@
 <?php
+
 $fb = new Facebook\Facebook([
   'app_id' => '178728269598594', // Replace {app-id} with your app id
   'app_secret' => '34759706ffb61f4b9add1dae533ca766',
@@ -55,7 +56,7 @@ if (! $accessToken->isLongLived()) {
   // Exchanges a short-lived access token for a long-lived one
   try {
     $accessToken = $oAuth2Client->getLongLivedAccessToken($accessToken);
-  } catch (Facebook\Exceptions\FacebookSDKException $e) {
+  } catch (vendor\facebook\graph-sdk\src\Facebook\Exceptions\FacebookSDKException $e) {
     echo "<p>Error getting long-lived access token: " . $helper->getMessage() . "</p>\n\n";
     exit;
   }
