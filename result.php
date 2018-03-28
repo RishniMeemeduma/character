@@ -10,6 +10,7 @@ $fb = new Facebook\Facebook([
 
 try {
   // Returns a `Facebook\FacebookResponse` object
+  $accessToken = $helper->getAccessToken(); 
   $response = $fb->get('/me?fields=id,name', '{access-token}');
 } catch(Facebook\Exceptions\FacebookResponseException $e) {
   echo 'Graph returned an error: ' . $e->getMessage();
