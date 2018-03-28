@@ -13,7 +13,26 @@ $v = $characters[$k];
 
 print_r($v);
 
+$fb = new Facebook\Facebook([
+  'app_id' => '178728269598594',
+  'app_secret' => '34759706ffb61f4b9add1dae533ca766',
+  'default_graph_version' => 'v2.2',
+  ]);
 
+try {
+  // Returns a `Facebook\FacebookResponse` object
+  $response = $fb->get('/me?fields=id,name', '{access-token}');
+} catch(Facebook\Exceptions\FacebookResponseException $e) {
+  echo 'Graph returned an error: ' . $e->getMessage();
+  exit;
+} catch(Facebook\Exceptions\FacebookSDKException $e) {
+  echo 'Facebook SDK returned an error: ' . $e->getMessage();
+  exit;
+}
+
+$user = $response->getGraphUser();
+
+echo 'Name: ' . $user['name'];
 
 // Create image
 /*$image = new \NMC\ImageWithText\Image(dirname(__FILE__) . '/source.jpg');
