@@ -1,3 +1,4 @@
+<?php
 $fb = new Facebook\Facebook([
   'app_id' => '178728269598594', // Replace {app-id} with your app id
   'app_secret' => '34759706ffb61f4b9add1dae533ca766',
