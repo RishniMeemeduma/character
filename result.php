@@ -66,5 +66,7 @@ $text2->startY = 140;
 $image->addText($text2);
 
 // Render image
+$image2=render(dirname(__FILE__) . '/destination.jpg');
 $image->render(dirname(__FILE__) . '/destination.jpg');
+echo "<img src='$image2'>"
 ?>
