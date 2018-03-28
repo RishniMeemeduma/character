@@ -24,7 +24,7 @@ $user = $response->getGraphUser();
 echo 'Name: ' . $user['name'];
 $picture=$user['picture'];
 $pc = json_decode($picture);
-echo $pc->url;
+//echo $pc->url;
 echo "<img src='$pc->url'>";
 //var_dump($pc);
 /*function array_kshift($characters){
