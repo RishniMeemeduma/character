@@ -24,8 +24,8 @@ $user = $response->getGraphUser();
 echo 'Name: ' . $user['name'];
 $picture=$user['picture'];
 $pc = json_decode($picture);
-echo $pic->url;
-
+echo $pc->url;
+var_dump($pc);
 /*function array_kshift($characters){
 	list($k)=array_keys($characters);
 	$r=array($k=>$characters[$k]);
