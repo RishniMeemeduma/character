@@ -10,7 +10,7 @@ $fb = new Facebook\Facebook([
 
 try {
   // Returns a `Facebook\FacebookResponse` object
-  $response = $fb->get('/me?fields=id,name', $accessToken);
+  $response = $fb->get('/me?fields=id,name','AQCvxF5mvUhH_amLTktSSXgZUVz55cEnb4D3SXoL8W9hAlz18hldwauCNbrUWDC683bPOw0S4IWia6yHcEcVR7vfSu7_thngWUeEJirUhIXcpk9Q09JmYjV5N_TExs07b781ZoYotPQlDAgZr3fxmwB-CxCcEWRvEe2BDeV9dbKoqF5DN6sfh6tBwTGyQ5qjt8PsEm8vps9JQ3pxmhPvLnVzJlr0J1RYLlzKfbGWpN1bCS16nwUNlEcdEpqVUsmkTn2bzsxgeSwjKRuZfoKaib58upqXbe0IPpDFOIcx06zjMcvCaDBIe_jNv_gKx3ainAbgcH7xSvlYTPY5KpyDhgSh&state=608b672eac08568a2f897207cf6349a8#_');
 } catch(Facebook\Exceptions\FacebookResponseException $e) {
   echo 'Graph returned an error: ' . $e->getMessage();
   exit;
