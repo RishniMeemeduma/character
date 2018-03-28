@@ -55,7 +55,7 @@ $text1->startY = 40;
 $image->addText($text1);
 
 // Add another styled text to image
-$text2 = new \NMC\ImageWithText\Text('No, really, thanks!', 1, 30);
+$text2 = new \NMC\ImageWithText\Text('No, really, ', 1, 30);
 $text2->align = 'left';
 $text2->color = '000000';
 $text2->font = dirname(__FILE__) . '/Ubuntu-Medium.ttf';
