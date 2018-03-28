@@ -41,7 +41,7 @@ $v = $characters[$k];
 print_r($v);
 
 // Create image
-/*$image = new \NMC\ImageWithText\Image(dirname(__FILE__) . '/source.jpg');
+$image = new \NMC\ImageWithText\Image(dirname(__FILE__) . '/source.jpg');
 
 // Add styled text to image
 $text1 = new \NMC\ImageWithText\Text('Thanks for using our image text PHP library!', 3, 25);
