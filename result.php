@@ -7,7 +7,7 @@ $fb = new Facebook\Facebook([
   'app_secret' => '34759706ffb61f4b9add1dae533ca766',
   'default_graph_version' => 'v2.2',
   ]);
-
+$helper = $fb->getRedirectLoginHelper();
 try {
   // Returns a `Facebook\FacebookResponse` object
   $accessToken = $helper->getAccessToken(); 
