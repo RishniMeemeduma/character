@@ -33,7 +33,8 @@ echo "<img src='$pc->url'>";
 	unset($characters[$k]);
 	return $r;
 <<<<<<< HEAD
-}*/
+}*/?><?php
+require 'vendor/autoload.php';
 $characters= array("Hiruni","Jehan Fernando","Maldeniya","Maldeniya's Dog","Telan","Ostin aiya" );
 $k = array_rand($characters);
 $v = $characters[$k];
