@@ -67,5 +67,6 @@ $image->addText($text2);
 
 // Render image
 $image->render('destination.jpg');
+var_dump($image->render('destination.jpg'));
 
 ?>
