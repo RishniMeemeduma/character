@@ -1,11 +1,21 @@
 <?php
+<<<<<<< HEAD
 /*session_start();
 require 'vendor/autoload.php';
+=======
+session_start();
+require 'vendor/autoload.php';
+
+>>>>>>> 95e734c20a3d5bd4687a196e2d5456336e134fbf
 $fb = new Facebook\Facebook([
   'app_id' => '178728269598594',
   'app_secret' => '34759706ffb61f4b9add1dae533ca766',
   'default_graph_version' => 'v2.2',
   ]);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 95e734c20a3d5bd4687a196e2d5456336e134fbf
 try {
   // Returns a `Facebook\FacebookResponse` object
   $response = $fb->get('/me?fields=id,name,picture',$_SESSION['fb_access_token']);
@@ -16,12 +26,22 @@ try {
   echo 'Facebook SDK returned an error: ' . $e->getMessage();
   exit;
 }
+<<<<<<< HEAD
 $user = $response->getGraphUser();
+=======
+
+$user = $response->getGraphUser();
+
+>>>>>>> 95e734c20a3d5bd4687a196e2d5456336e134fbf
 echo 'Name: ' . $user['name'];
 $picture=$user['picture'];
 $pc = json_decode($picture);
 //echo $pc->url;
+<<<<<<< HEAD
 echo "<img src='$pc->url'>";*/
+=======
+echo "<img src='$pc->url'>";
+>>>>>>> 95e734c20a3d5bd4687a196e2d5456336e134fbf
 //var_dump($pc);
 /*function array_kshift($characters){
 	list($k)=array_keys($characters);
@@ -29,7 +49,11 @@ echo "<img src='$pc->url'>";*/
 	unset($characters[$k]);
 	return $r;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }*/
+=======
+}*/?><?php
+>>>>>>> 95e734c20a3d5bd4687a196e2d5456336e134fbf
 require 'vendor/autoload.php';
 $characters= array("Hiruni","Jehan Fernando","Maldeniya","Maldeniya's Dog","Telan","Ostin aiya" );
 $k = array_rand($characters);
@@ -64,6 +88,10 @@ $image->addText($text2);
 // Render image
 $image->render('destination.jpg');
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 95e734c20a3d5bd4687a196e2d5456336e134fbf
 ?>
 
 ?>

@@ -5,13 +5,13 @@
 		<title>Find your Character</title>
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 		<style type='text/css'>
-			body       {background: url(./ant.jpg)no-repeat top ;
-			            background-size: inherit;
-			            position: relative ; 
-			            width:100% ;} 
+		body       {background: url(./ant.jpg)no-repeat top ;
+			    background-size: inherit;
+			    position: relative ; 
+			    width:100% ;} 
 			    
-			      .topic{ color: #fff;
-						      width: 600px;
+		.topic{ color: #fff;
+		  width: 600px;
                   text-align: center;
                   position: absolute;
                   left: calc(50% - 300px);
@@ -21,6 +21,19 @@
                   padding: 20px 20px;
                   border-radius: 20px;
                   }
+	    .login_to_fb{
+		  position: absolute;
+		  display: block;
+		  left:calc(50% - 100px);
+		  top: 285px;
+		  background-color: #3b5998;
+		  padding: 20px 30px;
+		  border-radius: 20px;
+			}
+	    .login_to_fb:hover{
+		    text-decoration:none;
+		    color:#fff;
+			}
             .button{background-color: rgba(255,255,255,0.1);
             			position: absolute;
                   width: 200px;
@@ -82,7 +95,7 @@
       $fb = new \Facebook\Facebook([
         'app_id' => '178728269598594',
         'app_secret' => '34759706ffb61f4b9add1dae533ca766',
-        'default_graph_version' => 'v2.10',
+        'default_graph_version' => 'v2.2',
         //'default_access_token' => '{access-token}', // optional
       ]);
 
@@ -91,9 +104,9 @@
       //   $helper = $fb->getJavaScriptHelper();
       //   $helper = $fb->getCanvasHelper();
       //   $helper = $fb->getPageTabHelper();
-         $permissions=['user_name','user_likes'];
+         $permissions=['email'];
          $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
-         echo '<a href="'.$loginUrl.'">Log in with Facebook!</a>'
+         echo '<a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb">Log in with Facebook!</a>'
     ?>
 		<div >
 			<h1 class="topic">Find your Koombiyo Character</h1>
