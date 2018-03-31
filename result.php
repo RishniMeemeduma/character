@@ -1,6 +1,6 @@
 <?php
 
-/*session_start();
+session_start();
 require 'vendor/autoload.php';
 
 $fb = new Facebook\Facebook([
@@ -36,8 +36,7 @@ echo "<img src='$pc->url'>";*/
 	return $r;
 
 }*/
-
-}*/?><?php
+?><?php
 require 'vendor/autoload.php';
 $characters= array("Hiruni","Jehan Fernando","Maldeniya","Maldeniya's Dog","Telan","Ostin aiya" );
 $k = array_rand($characters);
