@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+/*session_start();
 require 'vendor/autoload.php';
 
 $fb = new Facebook\Facebook([
@@ -15,7 +15,10 @@ try {
 } catch(Facebook\Exceptions\FacebookResponseException $e) {
   echo 'Graph returned an error: ' . $e->getMessage();
   exit;
-
+} catch(Facebook\Exceptions\FacebookSDKException $e) {
+  echo 'Facebook SDK returned an error: ' . $e->getMessage();
+  exit;
+}
 
 $user = $response->getGraphUser();
 
@@ -24,7 +27,7 @@ $picture=$user['picture'];
 $pc = json_decode($picture);
 //echo $pc->url;
 
-echo "<img src='$pc->url'>";
+echo "<img src='$pc->url'>";*/
 //var_dump($pc);
 /*function array_kshift($characters){
 	list($k)=array_keys($characters);
@@ -32,10 +35,9 @@ echo "<img src='$pc->url'>";
 	unset($characters[$k]);
 	return $r;
 
-
 }*/
 
-}?><?php
+}*/?><?php
 require 'vendor/autoload.php';
 $characters= array("Hiruni","Jehan Fernando","Maldeniya","Maldeniya's Dog","Telan","Ostin aiya" );
 $k = array_rand($characters);
@@ -70,7 +72,5 @@ $image->addText($text2);
 // Render image
 $image->render('destination.jpg');
 
-
-?>
 
 ?>
