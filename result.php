@@ -1,6 +1,6 @@
 <?php
 
-/*session_start();
+session_start();
 require 'vendor/autoload.php';
 
 $fb = new Facebook\Facebook([
@@ -27,7 +27,7 @@ $picture=$user['picture'];
 $pc = json_decode($picture);
 //echo $pc->url;
 
-echo "<img src='$pc->url'>";*/
+echo "<img src='$pc->url'>";
 //var_dump($pc);
 /*function array_kshift($characters){
 	list($k)=array_keys($characters);
