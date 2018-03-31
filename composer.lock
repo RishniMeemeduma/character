@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a00dbca657348bb27d66c516fc09307",
+    "content-hash": "22cf9d43c7db38b170a11ad8b9c3f67e",
     "packages": [
         {
             "name": "facebook/graph-sdk",
@@ -303,6 +303,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-gd": "*"
+    },
     "platform-dev": []
 }
