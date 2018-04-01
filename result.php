@@ -123,14 +123,14 @@ $image->render('destination.jpg');
   'default_graph_version' => 'v2.2',
   ]);*/
 
-$data = [
-  'message' => 'My awesome photo upload example.',
-  'source' => $fb->fileToUpload('/path/to/destination.jpg'),
-];
+$linkData = [
+  'link' => 'http://www.example.com',
+  'message' => 'User provided message',
+  ];
 
 try {
   // Returns a `Facebook\FacebookResponse` object
-  $response = $fb->post('/me/photos', $data, $_SESSION['fb_access_token']);
+  $response = $fb->post('/me/feed', $linkData,$_SESSION['fb_access_token']);
 } catch(Facebook\Exceptions\FacebookResponseException $e) {
   echo 'Graph returned an error: ' . $e->getMessage();
   exit;
@@ -141,6 +141,6 @@ try {
 
 $graphNode = $response->getGraphNode();
 
-echo 'Photo ID: ' . $graphNode['id'];
+echo 'Posted with id: ' . $graphNode['id'];
 
 ?>
