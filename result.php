@@ -47,29 +47,29 @@ if($v=='Hiruni'){
 $pic=" <img src='hiruni.jpg'>";
 }
 if($v=='Ostin aiya'){
- echo" <img src='ostin.jpg'>";
+ echo" <img src='img/ostin.jpg'>";
 }if($v=='Jehan Fernando'){
- echo" <img src='jrhan.jpg'>";
+ echo" <img src='img/jrhan.jpg'>";
 }if($v=='Maldeniya'){
- echo" <img src='maldeniya.jpg'>";
+ echo" <img src='img/maldeniya.jpg'>";
 }if($v=="Maldeniya's Dog"){
- echo" <img src='maldeniay-balla.jpg'>";
+ echo" <img src='img/maldeniay-balla.jpg'>";
 }if($v=='Tiran'){
- echo" <img src='Tiran.jpg'>";
+ echo" <img src='img/Tiran.jpg'>";
 }if($v=='Sudu nangi'){
- echo" <img src='Sudu-Nangi.jpg'>";
+ echo" <img src='img/Sudu-Nangi.jpg'>";
 }if($v=='Thenne'){
- echo" <img src='Thenne.jpg'>";
+ echo" <img src='img/Thenne.jpg'>";
 }if($v=='Jude'){
- echo" <img src='jude.jpg'>";
+ echo" <img src='img/jude.jpg'>";
 }if($v=='Adikari'){
- echo" <img src='adhukari.jpg'>";
+ echo" <img src='img/adhukari.jpg'>";
 }
 if($v=='Ananda'){
- echo" <img src='ananda.jpg'>";
+ echo" <img src='img/ananda.jpg'>";
 }
 if($v=='Priyantha'){
- echo" <img src='priyantha.jpg'>";
+ echo" <img src='img/priyantha.jpg'>";
 }
 // Create image
 $image = new \NMC\ImageWithText\Image('ant.jpg');
@@ -117,11 +117,11 @@ $image->addText($text2);
 // Render image
 $image->render('destination.jpg');
 
-$fb = new Facebook\Facebook([
+/*$fb = new Facebook\Facebook([
   'app_id' => '178728269598594',
   'app_secret' => '34759706ffb61f4b9add1dae533ca766',
   'default_graph_version' => 'v2.2',
-  ]);
+  ]);*/
 
 $data = [
   'message' => 'My awesome photo upload example.',
