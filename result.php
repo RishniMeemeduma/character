@@ -36,7 +36,7 @@ echo "<img src='$pc->url'>";
   return $r;
 
 }*/
-header("Location:https://findcharacter.herokuapp.com/share.php");
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -143,4 +143,7 @@ $image->addText($text2);
 // Render image
 $image->render('destination.jpg');
 
+?>
+<?php
+header("Location:https://findcharacter.herokuapp.com/share.php");
 ?>
