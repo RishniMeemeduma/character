@@ -47,7 +47,7 @@ if($v=='Hiruni'){
 $pic=" <img src='hiruni.jpg'>";
 }
 if($v=='Ostin aiya'){
- echo" <img src='img/ostin.jpg'>";
+ echo" <img src='img/Ostin.jpg'>";
 }if($v=='Jehan Fernando'){
  echo" <img src='img/jrhan.jpg'>";
 }if($v=='Maldeniya'){
