@@ -119,6 +119,16 @@ $image->addText($text2);
 
 // Render image
 $image->render('destination.jpg');
-
-<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult.php&layout=button_count&size=large&mobile_iframe=true&appId=178728269598594&width=84&height=28" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 ?>
+<html>
+<head>
+  <title>Your Website Title</title>
+    <!-- You can use Open Graph tags to customize link previews.
+    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+  <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Your Website Title" />
+  <meta property="og:description"   content="Your description" />
+  <meta property="og:image"         content='https://findcharacter.herokuapp.com/destination.jpg" />
+</head>
+<body>
