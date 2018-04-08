@@ -47,7 +47,7 @@ $v = $characters[$k];
 
 print_r($v);
 if($v=='Hiruni'){
-$pic=" <img src='hiruni.jpg'>";
+$pic=" <img src='img/hiruni.jpg'>";
 }
 if($v=='Ostin aiya'){
  echo" <img src='img/Ostin.jpg'>";
