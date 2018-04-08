@@ -141,4 +141,5 @@ $image->addText($text2);
 
 // Render image
 $image->render('destination.jpg');
+header("Location:https://findcharacter.herokuapp.com/share.php");
 ?>
