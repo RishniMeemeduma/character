@@ -116,32 +116,6 @@ $image->addText($text2);
 
 // Render image
 $image->render('destination.jpg');
-
-/*$fb = new Facebook\Facebook([
-  'app_id' => '178728269598594',
-  'app_secret' => '34759706ffb61f4b9add1dae533ca766',
-  'default_graph_version' => 'v2.2',
-  ]);*/
-
-$linkData = [
-  'link' => 'http://www.example.com',
-  'message' => 'User provided message',
-  ];
-
-try {
-  // Returns a `Facebook\FacebookResponse` object
-  $response = $fb->post('/me/feed', $linkData,$_SESSION['fb_access_token']);
-} catch(Facebook\Exceptions\FacebookResponseException $e) {
-  echo 'Graph returned an error: ' . $e->getMessage();
-  exit;
-} catch(Facebook\Exceptions\FacebookSDKException $e) {
-  echo 'Facebook SDK returned an error: ' . $e->getMessage();
-  exit;
-}
-
-$graphNode = $response->getGraphNode();
-
-echo 'Posted with id: ' . $graphNode['id'];
-
 ?>
 <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult.php&layout=button_count&size=large&mobile_iframe=true&appId=178728269598594&width=84&height=28" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
