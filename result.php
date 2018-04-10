@@ -44,7 +44,7 @@ try {
 
 $user = $response->getGraphUser();
 
-/*echo 'Name: ' . $user['name'];*/
+echo 'Name: ' . $user['name'];
 $picture=$user['picture'];
 $pc = json_decode($picture);
 //echo $pc->url;
@@ -103,7 +103,7 @@ if($v=='Priyantha'){
       </div>
 
       <div class="user_name">
-        <h2 class="u_name"><?php echo .$user['name'] ;?></h2>
+        <h2 class="u_name"><?php echo $user['name'] ;?></h2>
       </div>
 
     </section>
