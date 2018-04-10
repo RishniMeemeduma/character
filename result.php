@@ -13,7 +13,7 @@
   <style type="text/css">
   .container{background: url(img/ant.jpg) no-repeat top fixed;position: relative;background-size: cover;height: 800px}
   .u_pic{width: 150px;height: 200px;position: absolute;display: block;top: 100px;line-height: 0.9em;}
-  .c_pic{width: 150px;height: 200px;position: absolute;right: 30px;top:100px;display: block;}
+  .c_pic{width: 150px;height: 200px;position: absolute;right: 180px;top:100px;z-index: 1}
   .u_name{position:absolute; color: #fff;top: 300px;}
   .c_name{position:absolute; color: #fff;top: 300px;right:100px;}
   h1{position: absolute;color: rgba(255,255,255,0.6);left: calc(50% - 150px);}
