@@ -43,34 +43,34 @@ $v = $characters[$k];
 
 print_r($v);
 if($v=='Hiruni'){
-echo "<img src='img/hiruni.jpg'>";
+echo "<img class='c_pic' src='img/hiruni.jpg'>";
 }
 if($v=='Ostin aiya'){
-echo" <img src='img/Ostin.jpg'>";
+echo" <img class='c_pic' src='img/Ostin.jpg'>";
 }if($v=='Jehan Fernando'){
- echo" <img src='img/jrhan.jpg'>";
+ echo" <img class='c_pic' src='img/jrhan.jpg'>";
 }if($v=='Maldeniya'){
-echo" <img src='img/maldeniya.jpg'>";
+echo" <img class='c_pic' src='img/maldeniya.jpg'>";
 }if($v=="Maldeniya's Dog"){
-echo" <img src='img/maldeniay-balla.jpg'>";
+echo" <img class='c_pic' src='img/maldeniay-balla.jpg'>";
 }if($v=='Tiran'){
-echo" <img src='img/Tiran.jpg'>";
+echo" <img class='c_pic' src='img/Tiran.jpg'>";
 }if($v=='Sudu nangi'){
-echo" <img src='img/Sudu-Nangi.jpg'>";
+echo" <img class='c_pic' src='img/Sudu-Nangi.jpg'>";
 }if($v=='Thenne'){
-echo" <img src='img/Thenne.jpg'>";
+echo" <img class='c_pic' src='img/Thenne.jpg'>";
 }if($v=='Jude'){
-echo" <img src='img/jude.jpg'>";
+echo" <img class='c_pic' src='img/jude.jpg'>";
 }if($v=='Adikari'){
-echo" <img src='img/adhukari.jpg'>";
+echo" <img class='c_pic' src='img/adhukari.jpg'>";
 }
 if($v=='Ananda'){
- echo" <img src='img/ananda.jpg'>";
+ echo" <img class='c_pic' src='img/ananda.jpg'>";
 }
 if($v=='Priyantha'){
- echo" <img src='img/priyantha.jpg'>";
+ echo" <img class='c_pic' src='img/priyantha.jpg'>";
 }
-echo"<img src='destination.jpg'>"
+
 ?> 
 <!DOCTYPE html>
 <html>
