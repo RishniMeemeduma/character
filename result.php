@@ -12,7 +12,7 @@
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <style type="text/css">
   .container{background: url(img/ant.jpg) no-repeat top fixed;position: relative;background-size: cover;height: 800px}
-  .u_pic{width: 150px;height: 200px;position: absolute;display: block;top: 100px;line-height: 0.9em;}
+  .u_pic{width: 50px;height: 200px;position: absolute;display: block;top: 100px;line-height: 0.9em;}
   .c_pic{width: 150px;height: 200px;position: absolute;right: 180px;top:100px;z-index: 1}
   .u_name{position:absolute; color: #fff;top: 300px;}
   .c_name{position:absolute; color: #fff;top: 300px;right:100px;}
@@ -103,7 +103,7 @@ if($v=='Priyantha'){
       </div>
 
       <div class="user_name">
-        <h2 class="u_name"><?php echo $user['name'] ;?></h2>
+        <h2 class="u_name"><?php echo .$user['name'] ;?></h2>
       </div>
 
     </section>
