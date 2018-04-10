@@ -43,26 +43,26 @@ $v = $characters[$k];
 
 print_r($v);
 if($v=='Hiruni'){
-$pic=echo " <img src='img/hiruni.jpg'>";
+echo "<img src='img/hiruni.jpg'>";
 }
 if($v=='Ostin aiya'){
- $pic=echo" <img src='img/Ostin.jpg'>";
+echo" <img src='img/Ostin.jpg'>";
 }if($v=='Jehan Fernando'){
- $pic=echo" <img src='img/jrhan.jpg'>";
+ echo" <img src='img/jrhan.jpg'>";
 }if($v=='Maldeniya'){
- $pic=echo" <img src='img/maldeniya.jpg'>";
+echo" <img src='img/maldeniya.jpg'>";
 }if($v=="Maldeniya's Dog"){
- $pic=echo" <img src='img/maldeniay-balla.jpg'>";
+echo" <img src='img/maldeniay-balla.jpg'>";
 }if($v=='Tiran'){
- $pic=echo" <img src='img/Tiran.jpg'>";
+echo" <img src='img/Tiran.jpg'>";
 }if($v=='Sudu nangi'){
- $pic=echo" <img src='img/Sudu-Nangi.jpg'>";
+echo" <img src='img/Sudu-Nangi.jpg'>";
 }if($v=='Thenne'){
- $pic=echo" <img src='img/Thenne.jpg'>";
+echo" <img src='img/Thenne.jpg'>";
 }if($v=='Jude'){
- $pic=echo" <img src='img/jude.jpg'>";
+echo" <img src='img/jude.jpg'>";
 }if($v=='Adikari'){
- $pic=echo" <img src='img/adhukari.jpg'>";
+echo" <img src='img/adhukari.jpg'>";
 }
 if($v=='Ananda'){
  echo" <img src='img/ananda.jpg'>";
