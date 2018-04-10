@@ -14,7 +14,7 @@
   .container{background: url(img/ant.jpg) no-repeat top fixed;position: relative;background-size: cover;height: 800px}
   .u_pic{width: inherit;height: inherit;position: absolute;display: block;top: 100px;line-height: 0.9em;}
   .c_pic{width: 150px;height: 200px;position: absolute;right: 180px;top:100px;z-index: 1}
-  .u_name{position:absolute; color: #fff;top: 300px;}
+  .u_name{position:absolute; color: #fff;display: }
   .c_name{position:absolute; color: #fff;top: 300px;right:100px;}
   h1{position: absolute;color: rgba(255,255,255,0.6);left: calc(50% - 150px);}
   </style>
@@ -103,7 +103,7 @@ if($v=='Priyantha'){
       </div>
 
       <div class="user_name">
-        <h2 class="u_name"><?php echo $user['name'] ;?></h2>
+        <p class="u_name"><?php echo $user['name'] ;?></p>
       </div>
 
     </section>
@@ -114,7 +114,7 @@ if($v=='Priyantha'){
       </div>
 
       <div class="character_name">
-        <h2 class="c_name"><?  print_r($k)?></h2>
+        <p class="c_name"><?  print_r($v)?></p>
       </div>
     </section>
   </section>
