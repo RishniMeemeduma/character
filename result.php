@@ -12,7 +12,7 @@
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <style type="text/css">
   .container{background: url(img/ant.jpg) no-repeat top fixed;position: relative;background-size: cover;height: 800px}
-  .u_pic{width: 50px;height: 200px;position: absolute;display: block;top: 100px;line-height: 0.9em;}
+  .u_pic{width: inherit;height: inherit;position: absolute;display: block;top: 100px;line-height: 0.9em;}
   .c_pic{width: 150px;height: 200px;position: absolute;right: 180px;top:100px;z-index: 1}
   .u_name{position:absolute; color: #fff;top: 300px;}
   .c_name{position:absolute; color: #fff;top: 300px;right:100px;}
@@ -63,7 +63,7 @@ $characters= array("Hiruni","Priyantha","Adikari","Ananda","Jude","Thenne","Jeha
 $k = array_rand($characters);
 $v = $characters[$k];
 
-/*print_r($v);*/
+print_r($v);
 if($v=='Hiruni'){
 echo "<img class='c_pic' src='img/hiruni.jpg'>";
 }
@@ -114,7 +114,7 @@ if($v=='Priyantha'){
       </div>
 
       <div class="character_name">
-        <h2 class="c_name"><? echo print_r($k)?></h2>
+        <h2 class="c_name"><?  print_r($k)?></h2>
       </div>
     </section>
   </section>
