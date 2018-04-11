@@ -15,7 +15,7 @@
   .u_pic{width: inherit;height: inherit;position: absolute;display: block;top: 100px;line-height: 0.9em;}
   .c_pic{width: 150px;height: 200px;position: absolute;right: 180px;top:100px;z-index: 1}
   .u_name{position:absolute; color: #fff;display:block;top: 300px;font-weight: bold;font-size: xx-large; }
-  .c_name{position:absolute; color: #fff;top: 300px;right:100px;font-weight: bold;font-size: xx-large;}
+  .c_name{position:absolute; color: #fff;top: 300px;right:80px;font-weight: bold;font-size: xx-large;}
   h1{position: absolute;color: rgba(255,255,255,0.6);left: calc(50% - 150px);}
   </style>
 </head>
@@ -117,6 +117,9 @@ if($v=='Priyantha'){
         <p class="c_name"><?  print_r($v)?></p>
       </div>
     </section>
+    <div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result.php" data-layout="button_count" data-size="large" data-mobile-iframe="true">
+      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
+    </div>
   </section>
  <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
