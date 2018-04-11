@@ -33,7 +33,7 @@
       width: 150px;
       height: 200px;
       position: absolute;
-      right: calc(25% + 56px);
+      left: calc(45%);
       top: 126px;
       z-index: 1
       }
@@ -44,22 +44,35 @@
       font-weight: bold;
       top: calc(50% + 74px);
       font-size: x-large;
-      background-color: darkred;
+      
       }
     .c_name{
       position:absolute;
       color: #fff;
-      top: calc(50% + 74px);
-      left: calc(75%);
+      top: calc(45%);
+      left: calc(65%);
       font-weight: bold;
       font-size: xx-large;
       padding: 3%;
+      background-color: darkred;
       }
     h1{
       position: absolute;
       color: rgba(255,255,255,0.6);
       left: calc(25% - 55px);
-      }
+      top: 50px;
+    }
+    .description{
+      color: #4abd13;
+      position: absolute;
+      bottom: 10%;
+      font-size: 1.5em;
+      /* left: 15%; */
+      background-color: white;
+      width: -webkit-fill-available;
+      left: 0px;
+      padding: 3%;
+    }
   </style>
 </head>
 <body>
@@ -142,7 +155,7 @@ if($v=='Priyantha'){
     <section class="user">
 
       <div class="user_pic">
-        <?php echo "<img class='u_pic' src='$pc->url'>";?>
+        <?php //echo "<img class='u_pic' src='$pc->url'>";?>
       </div>
 
       <div class="user_name">
