@@ -119,7 +119,7 @@
 				<input type="submit" class="button" name="submit" value="Click here">
 			</form> -->
 
-      <a class="button" href="result.php">Click here</a>
+      <!--<a class="button" href="result.php">Click here</a>-->
 			
 		</div>	
 	</body>
