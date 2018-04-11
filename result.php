@@ -78,6 +78,10 @@
       font-size: 1.9em;
       font-family: monospace;
     }
+    .fb-share-button{
+      display: inline;
+      left: 45%;
+    }
   </style>
 </head>
 <body>
