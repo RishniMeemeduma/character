@@ -11,12 +11,52 @@
   <meta property="og:image"         content="https://findcharacter.herokuapp.com/destination.jpg" />
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <style type="text/css">
-  .container{background: url(img/ant.jpg) no-repeat top ;position: relative;background-size: cover;height: 500px}
-  .u_pic{width: inherit;height: inherit;position: absolute;display: block;top: 100px;line-height: 0.9em;}
-  .c_pic{width: 150px;height: 200px;position: absolute;right: 180px;top:100px;z-index: 1}
-  .u_name{position:absolute; color: #fff;display:block;top: 300px;font-weight: bold;font-size: xx-large; }
-  .c_name{position:absolute; color: #fff;top: 300px;right:80px;font-weight: bold;font-size: xx-large;}
-  h1{position: absolute;color: rgba(255,255,255,0.6);left: calc(50% - 150px);}
+    .container{
+      /*background: url(img/ant.jpg) no-repeat top ;*/
+      background-color :#000;
+      position: relative;
+      background-size: cover;
+      height: -webkit-fill-available;
+      width: 50%;
+      }
+    .u_pic{
+      width: inherit;
+      height: inherit;
+      position: absolute;
+      display: block;
+      top: calc(50% - 107px);
+      line-height: 0.9em;
+      }
+    .c_pic{
+      width: 150px;
+      height: 200px;
+      position: absolute;
+      right: calc(25% + 22px);
+      top: 126px;
+      z-index: 1
+      }
+    .u_name{
+      position:absolute;
+      color: #fff;
+      display:block;
+      font-weight: bold;
+      top: calc(50% + 74px);
+      font-size: x-large;
+      }
+    .c_name{
+      position:absolute;
+      color: #fff;
+      top: calc(50% + 74px);
+      left: calc(75%);
+      font-weight: bold;
+      font-size: xx-large;
+      padding: 3%;
+      }
+    h1{
+      position: absolute;
+      color: rgba(255,255,255,0.6);
+      left: calc(50% - 150px);
+      }
   </style>
 </head>
 <body>
@@ -112,15 +152,17 @@ if($v=='Priyantha'){
       <div class="character_pic">
         
       </div>
-
+      <div calss="discription">
+        <p><?php echo $user['name']?> You are absolutely like <?php print_r($v);?></p>
+      </div>
       <div class="character_name">
         <p class="c_name"><?  print_r($v)?></p>
       </div>
     </section>
+    </section>
     <div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result.php" data-layout="button_count" data-size="large" data-mobile-iframe="true">
       <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
     </div>
-  </section>
  <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
