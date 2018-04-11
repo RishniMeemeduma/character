@@ -15,7 +15,7 @@
                   text-align: center;
                   position: absolute;
                   left: calc(50% - 300px);
-                  top: inherit;
+                  top: 67px;
                   background-color: rgba(255,255,255,0.4);
                   display: block;
                   padding: 20px 20px;
@@ -24,11 +24,12 @@
 	    .login_to_fb{
 		  position: absolute;
 		  display: block;
-		  left:calc(50% - 100px);
-		  top: 285px;
+		  left:calc(50% - 150px);
+		  top: 318px;
 		  background-color: #3b5998;
 		  padding: 20px 30px;
 		  border-radius: 20px;
+		  font-size:1.8em;
 			}
 	    .login_to_fb:hover{
 		    text-decoration:none;
@@ -106,7 +107,7 @@
       //   $helper = $fb->getPageTabHelper();
          $permissions=['email'];
          $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
-         echo '<a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb">Log in with Facebook!</a>'
+         echo '<a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb">Log in with Facebook</a>'
     ?>
 		<div >
 			<h1 class="topic">Find your Koombiyo Character</h1>
