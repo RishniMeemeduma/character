@@ -18,6 +18,7 @@
       background-size: cover;
       height: -webkit-fill-available;
       width: 50%;
+      height:500px;
       }
     .u_pic{
       width: inherit;
@@ -25,13 +26,14 @@
       position: absolute;
       display: block;
       top: calc(50% - 107px);
+      left: calc(25% - 126px);
       line-height: 0.9em;
       }
     .c_pic{
       width: 150px;
       height: 200px;
       position: absolute;
-      right: calc(25% + 22px);
+      right: calc(25% + 56px);
       top: 126px;
       z-index: 1
       }
@@ -42,6 +44,7 @@
       font-weight: bold;
       top: calc(50% + 74px);
       font-size: x-large;
+      background-color: darkred;
       }
     .c_name{
       position:absolute;
@@ -55,7 +58,7 @@
     h1{
       position: absolute;
       color: rgba(255,255,255,0.6);
-      left: calc(50% - 150px);
+      left: calc(25% - 55px);
       }
   </style>
 </head>
