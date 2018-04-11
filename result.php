@@ -60,12 +60,12 @@
       position: absolute;
       color: rgba(255,255,255,0.6);
       left: calc(25% - 55px);
-      top: 50px;
+      top: 21px;
     }
     .description{
       color: #4abd13;
       position: absolute;
-      bottom: 10%;
+      bottom: 5%;
       font-size: 1.5em;
       /* left: 15%; */
       background-color: white;
