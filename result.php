@@ -63,7 +63,7 @@ $characters= array("Hiruni","Priyantha","Adikari","Ananda","Jude","Thenne","Jeha
 $k = array_rand($characters);
 $v = $characters[$k];
 
-print_r($v);
+/*print_r($v);*/
 if($v=='Hiruni'){
 echo "<img class='c_pic' src='img/hiruni.jpg'>";
 }
