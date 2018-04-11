@@ -42,7 +42,7 @@
       color: #fff;
       display:block;
       font-weight: bold;
-      top: calc(50% + 74px);
+      top: calc(45%);
       font-size: x-large;
       
       }
@@ -52,7 +52,7 @@
       top: calc(45%);
       left: calc(65%);
       font-weight: bold;
-      font-size: xx-large;
+      font-size: x-large;
       padding: 3%;
       background-color: darkred;
       }
