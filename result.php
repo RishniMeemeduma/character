@@ -11,7 +11,7 @@
   <meta property="og:image"         content="https://findcharacter.herokuapp.com/destination.jpg" />
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <style type="text/css">
-  .container{background: url(img/ant.jpg) no-repeat top fixed;position: relative;background-size: cover;height: 800px}
+  .container{background: url(img/ant.jpg) no-repeat top fixed;position: relative;background-size: cover;height: 500px}
   .u_pic{width: inherit;height: inherit;position: absolute;display: block;top: 100px;line-height: 0.9em;}
   .c_pic{width: 150px;height: 200px;position: absolute;right: 180px;top:100px;z-index: 1}
   .u_name{position:absolute; color: #fff;display:block;top: 300px;font-weight: bold;font-size: xx-large; }
