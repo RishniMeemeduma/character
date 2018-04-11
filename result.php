@@ -168,7 +168,7 @@ if($v=='Priyantha'){
       <div class="character_pic">
         
       </div>
-      <div class="discription">
+      <div class="description">
         <p><?php echo $user['name']?> You are absolutely like <?php print_r($v);?></p>
       </div>
       <div class="character_name">
