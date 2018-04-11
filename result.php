@@ -73,6 +73,11 @@
       left: 10%;
       padding: 3%;
     }
+    .share p{
+      text-align: center;
+      font-size: 1.9em;
+      font-family: monospace;
+    }
   </style>
 </head>
 <body>
