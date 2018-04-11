@@ -89,7 +89,7 @@ $_SESSION['fb_access_token'] = (string) $accessToken;
                   text-align: center;
                   position: absolute;
                   left: calc(50% - 300px);
-                  bottom: inherit;
+                  top: 67px;
                   background-color: rgba(255,255,255,0.4);
                   display: block;
                   padding: 20px 20px;
@@ -108,38 +108,35 @@ $_SESSION['fb_access_token'] = (string) $accessToken;
 		    text-decoration:none;
 		    color:#fff;
 			}
-            .button{background-color: rgba(255,255,255,0.1);
-            			position: absolute;
-                  width: 200px;
-            			left: calc(50% - 100px);
-            			top:calc(50% + 120px);
-            			color: #fff;
-            			font-size: 1.5em;
-            			padding: 20px 20px;
-            			border-radius: 20px;
-            			text-decoration: none;
-
-
-           				}
-           	.button::after{
-           				content: '>>';
-           				padding-left: 5px;
-                  text-decoration: none;
-           				transition:padding-left;
-
-           				}
+            .button{
+		  background-color: green;
+            	  position: absolute;
+                  width: inherit;
+            	  left: calc(50% - 180px);
+            	  top:550px;
+            	  color: #fff;
+            	  font-size: 1.5em;
+            	  padding: 20px 50px;
+            	  border-radius: 20px;
+            	  text-decoration: none;
+		}
+           .button::after{
+           	 content: '>>';
+           	 padding-left: 5px;
+                 text-decoration: none;
+           	 transition:padding-left;
+		}
             .button:hover{
-                  text-decoration: none;
-                  color: #fff;
+                 text-decoration: none;
+                 color: #fff;
                   }
-           	.button:hover::after{
-           				padding-left: 3px;
-                 
-           				}
-            a     {
-                  color: #fff;
-                  text-decoration: none;
-                   }
+            .button:hover::after{
+           	 padding-left: 3px;
+                 }
+            a   {
+                 color: #fff;
+                 text-decoration: none;
+                }
 
            	/*form	{width: 600px;
            				display: block;
@@ -174,7 +171,7 @@ $_SESSION['fb_access_token'] = (string) $accessToken;
 				<input type="submit" class="button" name="submit" value="Click here">
 			</form> -->
 
-      <a class="button" href="result.php">Click here</a>
+      <a class="button" href="result.php">Click here to find your answer</a>
 			
 		</div>	
 	</body>
