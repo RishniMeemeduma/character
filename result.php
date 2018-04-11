@@ -49,8 +49,8 @@
     .c_name{
       position:absolute;
       color: #fff;
-      top: calc(45%);
-      left: calc(65%);
+      top: 42%;
+      right: 8%;
       font-weight: bold;
       font-size: x-large;
       padding: 3%;
@@ -63,14 +63,14 @@
       top: 21px;
     }
     .description{
-      color: #4abd13;
+      color: rgba(255,255,255,0.4);
       position: absolute;
       bottom: 5%;
       font-size: 1.5em;
       /* left: 15%; */
-      background-color: white;
+     /* background-color: white;*/
       width: -webkit-fill-available;
-      left: 0px;
+      left: 10%;
       padding: 3%;
     }
   </style>
