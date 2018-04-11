@@ -15,7 +15,7 @@
                   text-align: center;
                   position: absolute;
                   left: calc(50% - 300px);
-                  bottom: inherit;
+                  top: inherit;
                   background-color: rgba(255,255,255,0.4);
                   display: block;
                   padding: 20px 20px;
