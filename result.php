@@ -13,9 +13,7 @@
 </head>
 <body>
   <?php
-  ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
 session_start();
 require 'vendor/autoload.php';
 $fb = new Facebook\Facebook([
@@ -49,7 +47,8 @@ $pc = json_decode($picture);
 $characters= array("Hiruni","Priyantha","Adikari","Ananda","Jude","Thenne","Jehan Fernando","Maldeniya","Maldeniya's Dog","Tiran","Ostin aiya","Sudu nangi" );
 $k = array_rand($characters);
 $v = $characters[$k];
-/*print_r($v);*/
+/*print_r($v);*/?>
+  <?php
 $ch = curl_init();
 
 curl_setopt($ch, CURLOPT_URL,"http://koombiyoweb.000webhostapp.com/result_new.php");
