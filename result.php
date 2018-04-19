@@ -109,7 +109,7 @@ $myimg=$server_output['image'];
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="Your Website Title" />
   <meta property="og:description"   content="Your description" />
-  <meta property="og:image"         content=<img src="data:image/png;base64, <?php echo $myimg;?>" alt="Red dot" /> />
+  <meta property="og:image"         content="<img src="data:image/png;base64, <?php echo $myimg;?>" alt="Red dot" />" />
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   
 </head>
