@@ -47,7 +47,6 @@ $characters= array("Hiruni","Priyantha","Adikari","Ananda","Jude","Thenne","Jeha
 $k = array_rand($characters);
 $v = $characters[$k];
 /*print_r($v);*/
-<?php
 $ch = curl_init();
 
 curl_setopt($ch, CURLOPT_URL,"http://koombiyoweb.000webhostapp.com/result_new.php");
