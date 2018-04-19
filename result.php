@@ -1,4 +1,94 @@
- <?php
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Your Koombiyo Character</title>
+     <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Your Website Title" />
+  <meta property="og:description"   content="Your description" />
+
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  
+</head>
+<body>
+  <?php
+
+session_start();
+require 'vendor/autoload.php';
+
+$fb = new Facebook\Facebook([
+  'app_id' => '178728269598594',
+  'app_secret' => '34759706ffb61f4b9add1dae533ca766',
+  'default_graph_version' => 'v2.2',
+  ]);
+
+try {
+  // Returns a `Facebook\FacebookResponse` object
+  $response = $fb->get('/me?fields=id,name,picture',$_SESSION['fb_access_token']);
+} catch(Facebook\Exceptions\FacebookResponseException $e) {
+  echo 'Graph returned an error: ' . $e->getMessage();
+  exit;
+} catch(Facebook\Exceptions\FacebookSDKException $e) {
+  echo 'Facebook SDK returned an error: ' . $e->getMessage();
+  exit;
+}
+
+$user = $response->getGraphUser();
+
+/*echo 'Name: ' . $user['name'];*/
+$picture=$user['picture'];
+$pc = json_decode($picture);
+//echo $pc->url;
+
+/*echo "<img src='$pc->url'>";*/
+//var_dump($pc);
+/*function array_kshift($characters){
+  list($k)=array_keys($characters);
+  $r=array($k=>$characters[$k]);
+  unset($characters[$k]);
+  return $r;
+
+}*/
+
+$characters= array("Hiruni","Priyantha","Adikari","Ananda","Jude","Thenne","Jehan Fernando","Maldeniya","Maldeniya's Dog","Tiran","Ostin aiya","Sudu nangi" );
+$k = array_rand($characters);
+$v = $characters[$k];
+
+/*print_r($v);*/
+if($v=='Hiruni'){
+echo "<img class='c_pic' src='img/hiruni.jpg'>";
+}
+if($v=='Ostin aiya'){
+echo" <img class='c_pic' src='img/Ostin.jpg'>";
+}if($v=='Jehan Fernando'){
+ echo" <img class='c_pic' src='img/jrhan.jpg'>";
+}if($v=='Maldeniya'){
+echo" <img class='c_pic' src='img/maldeniya.jpg'>";
+}if($v=="Maldeniya's Dog"){
+echo" <img class='c_pic' src='img/maldeniay-balla.jpg'>";
+}if($v=='Tiran'){
+echo" <img class='c_pic' src='img/Tiran.jpg'>";
+}if($v=='Sudu nangi'){
+echo" <img class='c_pic' src='img/Sudu-Nangi.jpg'>";
+}if($v=='Thenne'){
+echo" <img class='c_pic' src='img/Thenne.jpg'>";
+}if($v=='Jude'){
+echo" <img class='c_pic' src='img/jude.jpg'>";
+}if($v=='Adikari'){
+echo" <img class='c_pic' src='img/adhukari.jpg'>";
+}
+if($v=='Ananda'){
+ echo" <img class='c_pic' src='img/ananda.jpg'>";
+}
+if($v=='Priyantha'){
+ echo" <img class='c_pic' src='img/priyantha.jpg'>";
+}
+
+
+
+
 $ch = curl_init();
 
 curl_setopt($ch, CURLOPT_URL,"http://koombiyoweb.000webhostapp.com/result_new.php");
