@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset='utf-8'>
-  <title>Your Koombiyo Character</title>
-     <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
-  <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="Your Website Title" />
-  <meta property="og:description"   content="Your description" />
-  <meta property="og:image"         content= />
-  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-  
-</head>
-<body>
-   <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=178728269598594&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-    </script>
+
 
   <?php
 
@@ -121,7 +100,28 @@ $server_output =json_decode($server_output, true);
 
 $myimg=$server_output['image'];
 ?>
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Your Koombiyo Character</title>
+     <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Your Website Title" />
+  <meta property="og:description"   content="Your description" />
+  <meta property="og:image"         content= />
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  
+</head>
+<body>
+   <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=178728269598594&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
 <img src="data:image/png;base64, <?php echo $myimg;?>" alt="Red dot" />
 
     <?php
