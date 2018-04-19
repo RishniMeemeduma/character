@@ -57,7 +57,7 @@ $k = array_rand($characters);
 $v = $characters[$k];
 
 /*print_r($v);*/
-
+/*
 $ch = curl_init();
 curl_setopt($ch,CURLOPT_URL,"http://koombiyoweb.000webhostapp.com/result_new.php");
 curl_setopt($ch,CURLOPT_POST,1);
@@ -67,7 +67,7 @@ curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
 $servier_output=curl_exec($ch);
 $server_output=json_decode($server_output,true);
 
-echo var_dump($server_output,true);
+echo var_dump($server_output,true);*/
 ?> 
  
     <section class="share">
