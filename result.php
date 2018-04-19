@@ -94,7 +94,7 @@ $ch = curl_init();
 
 curl_setopt($ch, CURLOPT_URL,"http://koombiyoweb.000webhostapp.com/result_new.php");
 curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS,"uname=$u_name&cname=Jehan");
+curl_setopt($ch, CURLOPT_POSTFIELDS,"uname=$u_name&cname=$v");
 
 // in real life you should use something like:
 // curl_setopt($ch, CURLOPT_POSTFIELDS, 
