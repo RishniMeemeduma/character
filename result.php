@@ -40,7 +40,7 @@ $pc = json_decode($picture);
 
 }*/
 
-$characters= array("Hiruni","Priyantha","Adikari","Ananda","Jude","Thenne","Jehan Fernando","Maldeniya","Maldeniya's Dog","Tiran","Ostin aiya","Sudu nangi" );
+$characters= array("Hiruni","Priyantha","Adikari","Ananda","Jude","Thenne","Jehan Fernando","Maldeniya","Dog of Maldeniy","Tiran","Ostin aiya","Sudu nangi" );
 $k = array_rand($characters);
 $v = $characters[$k];
 
@@ -105,11 +105,11 @@ $myimg=$server_output['image'];
 <head>
   <meta charset='utf-8'>
   <title>Your Koombiyo Character</title>
-     <meta property="og:url"           content="https://koombiyoweb.000webhostapp.com/result_new.php" />
+     <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="Your Website Title" />
   <meta property="og:description"   content="Your description" />
-  <meta property="og:image"         content="https://koombiyoweb.000webhostapp.com/destination.jpg" />
+  <meta property="og:image"         content="https://findcharacter.herokuapp.com/$myimg" />
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   
 </head>
