@@ -105,12 +105,13 @@ $myimg=$server_output['image'];
 <head>
   <meta charset='utf-8'>
   <title>Your Koombiyo Character</title>
-     <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
-  <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="Your Website Title" />
-  <meta property="og:description"   content="Your description" />
-  <meta property="og:image"         content="https://koombiyoweb.000webhostapp.com/destination.jpg" />
-  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+      <meta property="og:url"        content="https://findcharacter.herokuapp.com/result.php" />
+      <meta property="og:type"          content="website" />
+      <meta property="fb:app_id"        content="178728269598594" />
+      <meta property="og:title"         content="Your Website Title" />
+      <meta property="og:description"   content="Your description" />
+      <meta property="og:image"         content="https://koombiyoweb.000webhostapp.com/destination.jpg" />
+      <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   
 </head>
 <body>
