@@ -109,7 +109,7 @@ $myimg=$server_output['image'];
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="Your Website Title" />
   <meta property="og:description"   content="Your description" />
-  <meta property="og:image"         content="https://findcharacter.herokuapp.com/$myimg" />
+  <meta property="og:image"         content="https://koombiyoweb.000webhostapp.com/destination.jpg" />
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   
 </head>
@@ -133,8 +133,7 @@ curl_close ($ch);
     <section class="share">
       <p>Share your result with facebook.</p>
     
-<div class="fb-share-button" data-href="https://koombiyoweb.000webhostapp.com/result_new.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkoombiyoweb.000webhostapp.com%2Fresult_new.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>      
-    </section>
+<div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>    </section>
 
 </body>
 </html>
