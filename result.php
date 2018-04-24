@@ -110,7 +110,7 @@ $myimg=$server_output['image'];
       <meta property="fb:app_id"        content="178728269598594" />
       <meta property="og:title"         content="Your Website Title" />
       <meta property="og:description"   content="Your description" />
-      <meta property="og:image"         content="https://findcharacter.herokuapp.com/data:image/png;base64, <?php echo $myimg;?>" />
+      <meta property="og:image"         content="http://koombiyocharacter.me/destination.jpg" />
       <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   
 </head>
