@@ -25,6 +25,7 @@ try {
 $user = $response->getGraphUser();
 
 /*echo 'Name: ' . $user['name'];*/
+$u_id=$user['id'];
   $u_name=$user['name'];
 $picture=$user['picture'];
 $pc = json_decode($picture);
@@ -81,7 +82,7 @@ $ch = curl_init();
 
 curl_setopt($ch, CURLOPT_URL,"http://koombiyoweb.000webhostapp.com/result_new.php");
 curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS,"uname=$u_name&cname=$v");
+curl_setopt($ch, CURLOPT_POSTFIELDS,"uname=$u_name&cname=$v&id=$u_id");
 
 // in real life you should use something like:
 // curl_setopt($ch, CURLOPT_POSTFIELDS, 
