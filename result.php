@@ -100,7 +100,8 @@ $server_output =json_decode($server_output, true);
 //echo var_dump($server_output);
 
 $myimg=$server_output['image'];
-<img src=$myimg>
+
+<img src="data:image/png;base64, <?php echo $myimg;?>" alt="Red dot" />
 ?>
 <!DOCTYPE html>
 <html>
