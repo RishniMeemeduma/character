@@ -108,12 +108,7 @@ $myimg=$server_output['image'];
 <head>
   <meta charset='utf-8'>
   <title>Your Koombiyo Character</title>
-      <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
-      <meta property="og:type"          content="post" />
-      <meta property="og:title"         content="Find your Koombiyo Character" />
-      <meta property="og:description"   content="Koombiyo is a populer teledarama now.You may like to find your koombiyo character." />
-      <meta property="og:image"         content="https://findcharacter.herokuapp.com/source.jpg" />
-      <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+
   
 </head>
 <body>
