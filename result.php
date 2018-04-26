@@ -127,6 +127,7 @@ $myimg=$server_output['image'];
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+  <img src="data:image/png;base64, <?php echo $myimg;?>" alt="Red dot" />
     <?php
 
 
