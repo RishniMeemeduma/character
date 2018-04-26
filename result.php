@@ -112,7 +112,7 @@ $myimg=$server_output['image'];
       <meta property="og:type"          content="website" />
       <meta property="og:title"         content="Your Website Title" />
       <meta property="og:description"   content="Your description" />
-      <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_image.jpg" />
+      <meta property="og:image"         content="https://findcharacter.herokuapp.com/source.jpg" />
       <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   
 </head>
