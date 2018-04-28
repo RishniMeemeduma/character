@@ -130,8 +130,7 @@ js = d.createElement(s); js.id = id;
 js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=178728269598594"; // appId must be valid
 fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<fb:share-button type="box_count">
-</fb:share-button>
+
 
     <section class="share">
       <p>Share your result with facebook.</p>
