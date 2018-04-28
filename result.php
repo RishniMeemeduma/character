@@ -2,11 +2,11 @@
 <html>
 <head>
   <title>Your Koombiyo Character</title>
-      <meta property="og:url"           content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+      <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
       <meta property="og:type"               content="article" />
       <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
       <meta property="og:description"        content="How much does culture influence creative thinking?" />
-      <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+      <meta property="og:image"              content="https://findcharacter.herokuapp.com/ant.jpg" />
       <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js" ></script>
       <script src="bootstrap.min.js"></script>
