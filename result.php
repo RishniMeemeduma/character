@@ -115,9 +115,9 @@ curl_close ($ch);
       <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
       <meta property="og:description"        content="How much does culture influence creative thinking?" />
       <meta property="og:image"              content="https://findcharacter.herokuapp.com/ant.jpg" />
-      <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+      <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js" ></script>
-      <script src="bootstrap.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
 </head>
 <body>
@@ -128,7 +128,7 @@ curl_close ($ch);
       appId            : '178728269598594',
       autoLogAppEvents : true,
       xfbml            : true,
-      version          : 'v2.12'
+      version          : 'v2.2'
     });
   };
 
