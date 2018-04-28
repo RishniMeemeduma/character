@@ -103,6 +103,10 @@ $myimg=$server_output['image'];
 
 
 ?>
+ <img src="data:image/png;base64, <?php echo $myimg;?>" alt="Red dot" />
+ <?php
+curl_close ($ch);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -125,15 +129,6 @@ $myimg=$server_output['image'];
     js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-
-  
-  
-  <img src="data:image/png;base64, <?php echo $myimg;?>" alt="Red dot" />
-    <?php
-
-
-curl_close ($ch);
-?>
 
     <section class="share">
       <p>Share your result with facebook.</p>
