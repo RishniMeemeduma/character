@@ -87,7 +87,7 @@
 <body>
   <?php
 
-session_start();
+/*session_start();
 require 'vendor/autoload.php';
 
 $fb = new Facebook\Facebook([
