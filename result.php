@@ -110,6 +110,7 @@ curl_close ($ch);
 <html>
 <head>
   <title>Your Koombiyo Character</title>
+      <meta property="fb:app_id"          content="178728269598594" /> 
       <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
       <meta property="og:type"               content="article" />
       <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
