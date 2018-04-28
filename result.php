@@ -14,7 +14,18 @@
 </head>
 <body>
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>
+   window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '178728269598594',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.12'
+    });
+  };
+
+  
+  (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
