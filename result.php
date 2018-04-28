@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset='utf-8'>
   <title>Your Koombiyo Character</title>
       <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
-      <meta property="og:type"          content="article" />
-      <meta property="og:title"         content="Find your Koombiyo Character" />
-      <meta property="og:description"   content="Koombiyo is a populer teledarama now.You may like to find your koombiyo character." />
+      <meta property="og:type"          content="website" />
+      <meta property="og:title"         content="Your Website Title" />
+      <meta property="og:description"   content="Your description" />
       <meta property="og:image"         content="https://findcharacter.herokuapp.com/source.jpg" />
       <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js" ></script>
