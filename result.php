@@ -1,37 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Your Koombiyo Character</title>
-      <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
-      <meta property="og:type"               content="article" />
-      <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
-      <meta property="og:description"        content="How much does culture influence creative thinking?" />
-      <meta property="og:image"              content="https://findcharacter.herokuapp.com/ant.jpg" />
-      <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js" ></script>
-      <script src="bootstrap.min.js"></script>
-  
-</head>
-<body>
-<div id="fb-root"></div>
-<script>
-   window.fbAsyncInit = function() {
-    FB.init({
-      appId            : '178728269598594',
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v2.12'
-    });
-  };
-
-  
-  (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=178728269598594&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
   <?php
 
@@ -140,6 +106,40 @@ $myimg=$server_output['image'];
  <?php
 curl_close ($ch);
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Koombiyo Character</title>
+      <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
+      <meta property="og:type"               content="article" />
+      <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
+      <meta property="og:description"        content="How much does culture influence creative thinking?" />
+      <meta property="og:image"              content="https://findcharacter.herokuapp.com/ant.jpg" />
+      <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js" ></script>
+      <script src="bootstrap.min.js"></script>
+  
+</head>
+<body>
+<div id="fb-root"></div>
+<script>
+   window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '178728269598594',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.12'
+    });
+  };
+
+  
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=178728269598594&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
     <section class="share">
       <p>Share your result with facebook.</p>
