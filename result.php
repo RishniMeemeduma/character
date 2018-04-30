@@ -109,7 +109,7 @@ curl_close ($ch);
 <!DOCTYPE html>
 <html>
 <head>
- <!-- <title>Your Koombiyo Character</title>
+  <title>Your Koombiyo Character</title>
       <meta property="fb:app_id"          content="178728269598594" /> 
       <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
       <meta property="og:type"               content="article" />
@@ -118,7 +118,7 @@ curl_close ($ch);
       <meta property="og:image"              content="https://findcharacter.herokuapp.com/ant.jpg" />
       <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" ></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
 </head>
 <body>
