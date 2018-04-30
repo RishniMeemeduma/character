@@ -109,7 +109,7 @@ curl_close ($ch);
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Your Koombiyo Character</title>
+ <!-- <title>Your Koombiyo Character</title>
       <meta property="fb:app_id"          content="178728269598594" /> 
       <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
       <meta property="og:type"               content="article" />
@@ -118,7 +118,7 @@ curl_close ($ch);
       <meta property="og:image"              content="https://findcharacter.herokuapp.com/ant.jpg" />
       <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" ></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
   
 </head>
 <body>
@@ -126,14 +126,14 @@ curl_close ($ch);
       <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
     </div>
   
- <script>(function(d, s, id) {
+<!-- <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
       js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=178728269598594&autoLogAppEvents=1';
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
-    </script>
+    </script>-->
 
 </body>
 </html>
