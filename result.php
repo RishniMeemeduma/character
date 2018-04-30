@@ -110,6 +110,7 @@ curl_close ($ch);
 <html>
 <head>
   <title>Your Koombiyo Character</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
         <meta property="og:type"          content="article" />
         <meta property="og:title"         content="Find your koombiyo character" />
