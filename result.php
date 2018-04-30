@@ -115,8 +115,9 @@ curl_close ($ch);
 <body>
 
   
-<div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result.php" class="fb-xfbml-parse-ignore">Share</a></div></body>
-</html>
+<div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+  </body>
+  </html>
 
 
 
