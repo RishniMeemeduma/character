@@ -112,8 +112,8 @@ curl_close ($ch);
   <title>Your Koombiyo Character</title>
     <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
     <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="Your Website Title" />
-    <meta property="og:description"   content="Your description" />
+    <meta property="og:title"         content="Find your koombiyo character" />
+    <meta property="og:description"   content="Find your koombiyo character" />
     <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_image.jpg" />
 </head>
 <body>
@@ -122,7 +122,7 @@ curl_close ($ch);
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=178728269598594&autoLogAppEvents=1';
+    js.src = '//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
   
