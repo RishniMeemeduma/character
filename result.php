@@ -3,7 +3,7 @@
 <head>
   <title></title>
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-   <meta property="og:url"           content="https://findcharacter.herokuapp.com/result.php" />
+   <meta property="og:url"           content="https://apps.facebook.com/koombiyoweb" />
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="Your Website Title" />
   <meta property="og:description"   content="Your description" />
