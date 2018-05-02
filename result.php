@@ -43,43 +43,13 @@ $characters= array("Hiruni","Priyantha","Adikari","Ananda","Jude","Thenne","Jeha
 $k = array_rand($characters);
 $v = $characters[$k];
 
-/*print_r($v);
-if($v=='Hiruni'){
-echo "<img class='c_pic' src='img/hiruni.jpg'>";
-}
-if($v=='Ostin aiya'){
-echo" <img class='c_pic' src='img/Ostin.jpg'>";
-}if($v=='Jehan Fernando'){
- echo" <img class='c_pic' src='img/jrhan.jpg'>";
-}if($v=='Maldeniya'){
-echo" <img class='c_pic' src='img/maldeniya.jpg'>";
-}if($v=="Maldeniya's Dog"){
-echo" <img class='c_pic' src='img/maldeniay-balla.jpg'>";
-}if($v=='Tiran'){
-echo" <img class='c_pic' src='img/Tiran.jpg'>";
-}if($v=='Sudu nangi'){
-echo" <img class='c_pic' src='img/Sudu-Nangi.jpg'>";
-}if($v=='Thenne'){
-echo" <img class='c_pic' src='img/Thenne.jpg'>";
-}if($v=='Jude'){
-echo" <img class='c_pic' src='img/jude.jpg'>";
-}if($v=='Adikari'){
-echo" <img class='c_pic' src='img/adhukari.jpg'>";
-}
-if($v=='Ananda'){
- echo" <img class='c_pic' src='img/ananda.jpg'>";
-}
-if($v=='Priyantha'){
- echo" <img class='c_pic' src='img/priyantha.jpg'>";
-}
-*/
 ?>
 <!DOCTYPE html>
 <html>
 <head>
   <title></title>
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-   <meta property="og:url"           content="http://www.koombiyocharacter.me" />
+   <meta property="og:url"           content="http://www.koombiyocharacter.me/index.php" />
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="Your Website Title" />
   <meta property="og:description"   content="Your description" />
@@ -87,15 +57,7 @@ if($v=='Priyantha'){
   
 </head>
 <body>
-<!--
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=178728269598594&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>-->
+
    <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -141,7 +103,7 @@ curl_close ($ch);
 <!--<div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result.php" data-layout="button_count" data-size="large" data-mobile-iframe="true">
       <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
 </div>-->
-<div class="fb-share-button" data-href=http://www.koombiyocharacter.me/joined_image<?php echo $u_id ?>.jpg" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Findex.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></html>
+<div class="fb-share-button" data-href=http://www.koombiyocharacter.me/index.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Findex.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></html>
 
 
 
