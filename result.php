@@ -84,7 +84,7 @@ if($v=='Priyantha'){
   <meta property="og:title"         content="Your Website Title" />
   <meta property="og:description"   content="Your description" />
   <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_image<?php echo $u_id ?>.jpg" />
-  <meta property="og:updated_time" content="<?php echo time() ?>" />
+  
 </head>
 <body>
 <!--
