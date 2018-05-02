@@ -172,7 +172,7 @@ $_SESSION['fb_access_token'] = (string) $accessToken;
 				<input type="submit" class="button" name="submit" value="Click here">
 			</form> -->
 
-      <a class="button" href="result.php">Click here to find your answer</a>
+      <a class="button" href="result.php?v=<?php echo rand() ?>">Click here to find your answer</a>
 			
 		</div>	
 	</body>
