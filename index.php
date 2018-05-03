@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<!--<meta charset="utf-8">
+		<meta charset="utf-8">
 		<title>Find your Character</title>
 		  <meta property="og:url"           content="https://findcharacter.herokuapp.com/index.php" />
 		  <meta property="og:type"          content="website" />
 		  <meta property="og:title"         content="Your Website Title" />
 		  <meta property="og:description"   content="Your description" />
-		  <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_image<?php //echo $user_id?>.jpg" />-->
+		  <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_image<?php //echo $user_id?>.jpg" />
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 		<style type='text/css'>
 		body       {background: url(./ant.jpg)no-repeat top ;
