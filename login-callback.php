@@ -71,6 +71,37 @@ $_SESSION['fb_access_token'] = (string) $accessToken;
 // User is logged in with a long-lived access token.
 // You can redirect them to a members-only page.
 //header('Location: https://example.com/members.php');
+try {
+  // Returns a `Facebook\FacebookResponse` object
+  $response = $fb->get('/me?fields=id,name,picture',$_SESSION['fb_access_token']);
+} catch(Facebook\Exceptions\FacebookResponseException $e) {
+  echo 'Graph returned an error: ' . $e->getMessage();
+  exit;
+} catch(Facebook\Exceptions\FacebookSDKException $e) {
+  echo 'Facebook SDK returned an error: ' . $e->getMessage();
+  exit;
+}
+$user = $response->getGraphUser();
+/***********************************************************************************/
+/*************************************Get User Informations from facebook*************/        
+/*echo 'Name: ' . $user['name'];*/
+$u_id=$user['id'];
+  $u_name=$user['name'];
+$picture=$user['picture'];
+$pc = json_decode($picture);
+$_SESSION['u_id']=(string) $u_id;
+$_SESSION['u_name']=(string) $u_name;
+header("Location:https://findcharacter.herokuapp.com/result_new.php");
+//echo $pc->url;
+/*echo "<img src='$pc->url'>";*/
+//var_dump($pc);
+/*function array_kshift($characters){
+  list($k)=array_keys($characters);
+  $r=array($k=>$characters[$k]);
+  unset($characters[$k]);
+  return $r;
+}*/
+/****************************************************************************************/
 ?>
 
 <!DOCTYPE HTML>
