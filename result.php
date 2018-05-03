@@ -29,8 +29,8 @@ $u_id=$user['id'];
 $picture=$user['picture'];
 $pc = json_decode($picture);
 
-$_session['u_id']=(String) $u_id;
-$_Session['u_name']=(String) $u_name;
+$_SESSION['u_id']=(string) $u_id;
+$_SESSION['u_name']=(string) $u_name;
 
 //echo $pc->url;
 
