@@ -1,6 +1,7 @@
 <?php
 session_start();
-
+$u_id=$_SESSION['u_id'];
+$u_name=$_SESSION['u_name'];  
 
 ?>
 <!DOCTYPE html>
@@ -12,7 +13,7 @@ session_start();
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="Your Website Title" />
   <meta property="og:description"   content="Your description" />
-  <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_image<?php echo $_SESSION['u_id'] ?>.jpg" />
+  <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_image<?php echo $u_id ?>.jpg" />
   
 </head>
 <body>
@@ -36,8 +37,7 @@ $v = $characters[$k];
 
 /*****************************Using Curl Send and get the Image from webhost*****************/
 $ch = curl_init();
-$u_id=$_SESSION['u_id'];
-$u_name=$_SESSION['u_name'];        
+      
 curl_setopt($ch, CURLOPT_URL,"http://koombiyoweb.000webhostapp.com/result_new.php");
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS,"uname=$u_name&cname=$v&id=$u_id");
