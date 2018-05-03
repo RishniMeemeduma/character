@@ -36,7 +36,8 @@ $v = $characters[$k];
 
 /*****************************Using Curl Send and get the Image from webhost*****************/
 $ch = curl_init();
-
+$u_id=$_SESSION['u_id'];
+$u_name=$_SESSION['u_name'];        
 curl_setopt($ch, CURLOPT_URL,"http://koombiyoweb.000webhostapp.com/result_new.php");
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS,"uname=$u_name&cname=$v&id=$u_id");
