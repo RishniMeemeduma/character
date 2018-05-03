@@ -78,6 +78,11 @@ $_SESSION['fb_access_token'] = (string) $accessToken;
 	<head>
 		<meta charset="utf-8">
 		<title>Find your Character</title>
+		<meta property="og:url"           content="https://findcharacter.herokuapp.com/login-callback.php" />
+		 <meta property="og:type"          content="website" />
+		 <meta property="og:title"         content="Find your koombiyo Character" />
+		 <meta property="og:description"   content="Find your koombiyo Character" />
+		 <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_image<?php echo $u_id  ?>.jpg" />
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 		<style type='text/css'>
 		body       {background: url(./ant.jpg)no-repeat top ;
