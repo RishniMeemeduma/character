@@ -208,7 +208,7 @@ $_SESSION['u_name']=(string) $u_name;
 				<input type="submit" class="button" name="submit" value="Click here">
 			</form> -->
 
-      <a class="button" href="result.php">Click here to find your answer</a>
+      <a class="button" href="result_new.php">Click here to find your answer</a>
 			
 		</div>	
 	</body>
