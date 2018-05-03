@@ -28,6 +28,10 @@ $u_id=$user['id'];
   $u_name=$user['name'];
 $picture=$user['picture'];
 $pc = json_decode($picture);
+
+$_session['u_id']=(String) $u_id;
+$_Session['u_name']=(String) $u_name;
+
 //echo $pc->url;
 
 /*echo "<img src='$pc->url'>";*/
