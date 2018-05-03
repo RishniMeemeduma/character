@@ -1,5 +1,6 @@
 <?php
 session_start();
+$u_id=$_SESSION['u_id'];
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -10,7 +11,7 @@ session_start();
 		 <meta property="og:type"          content="website" />
 		 <meta property="og:title"         content="Your Website Title" />
 		 <meta property="og:description"   content="Your description" />
-		 <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_image<?php echo $_SESSION['u_id'] ?>.jpg" />
+		 <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_image<?php echo $u_id  ?>.jpg" />
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 		<style type='text/css'>
 		body       {background: url(./ant.jpg)no-repeat top ;
