@@ -63,7 +63,7 @@ $pc = json_decode($picture);
 
 }*/
 /****************************************************************************************/
-?>
+
 /********************* Randomly select Character form php********************************/        
 $characters= array("Hiruni","Priyantha","Adikari","Ananda","Jude","Thenne","Jehan Fernando","Maldeniya","Dog of Maldeniy","Tiran","Ostin aiya","Sudu nangi" );
 $k = array_rand($characters);
