@@ -8,7 +8,7 @@ session_start();
 <head>
   <title></title>
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-   <meta property="og:url"           content="https://findcharacter.herokuapp.com/index.php" />
+   <meta property="og:url"           content="https://findcharacter.herokuapp.com/" />
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="Your Website Title" />
   <meta property="og:description"   content="Your description" />
