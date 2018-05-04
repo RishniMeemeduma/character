@@ -9,7 +9,7 @@ $u_name=$_SESSION['u_name'];
 <head>
   <title></title>
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-   <meta property="og:url"           content="https://findcharacter.herokuapp.com/login_callback.php" />
+   <meta property="og:url"          content="https://findcharacter.herokuapp.com/second-page.php#_=_" />
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="Find your koombiyo Character" />
   <meta property="og:description"   content="Koombiyo Is a famous teledrama.Do you like to find out your koombiyo character." />
