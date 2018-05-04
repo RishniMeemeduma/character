@@ -1,6 +1,7 @@
 <?php
 session_start();
 $u_id=$_SESSION['u_id'];
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -112,4 +113,3 @@ $u_id=$_SESSION['u_id'];
 </html>
 
 
-?>
