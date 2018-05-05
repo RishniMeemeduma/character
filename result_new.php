@@ -19,7 +19,7 @@ $u_name=$_SESSION['u_name'];
          margin-left: auto;
          margin-right: auto;
         }
-    .fb-share-button fb_iframe_widget fb_iframe_widget_fluid{
+    .fb-share-button .fb_iframe_widget .fb_iframe_widget_fluid{
         margin-left: 47%;
         }
     </style>
