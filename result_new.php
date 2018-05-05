@@ -22,6 +22,17 @@ $u_name=$_SESSION['u_name'];
     .fb-share-button{
         margin-left: 47%;
         }
+    .new-request{
+        display: block;
+        margin-left: 28%;
+        margin-top: 2%;
+        /* margin-right: 30%; */
+        margin-right: 28%;
+        padding: 1%;
+        background: rgba(12, 159, 213, 0.78);
+        color: #fff;
+        font-size: 19px;
+        }
     </style>
 </head>
 <body>
@@ -77,7 +88,7 @@ curl_close ($ch);
 ?>
 
 <div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result_new.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>  </div>
-  <div class="new-request"><a href="https://findcharacter.herokuapp.com/index.php">Find your answer from here</a>
+  <div class="new-request"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Find your answer from here</a>
   </body>
   </html>
 
