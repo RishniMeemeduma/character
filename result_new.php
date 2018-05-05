@@ -64,7 +64,7 @@ $server_output =json_decode($server_output, true);
 
 
 
-echo var_dump($server_output);
+//echo var_dump($server_output);
 
 $myimg=$server_output['image'];
 
