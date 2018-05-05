@@ -84,12 +84,13 @@ $myimg=$server_output['image'];*/
 <!--<img src="data:image/png;base64, <?php //echo $myimg;?>" alt="Red dot" />-->
   <img src="http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id ?>.jpg">
  <?php
-curl_close ($ch);
+//curl_close ($ch);
 /***********************************************************************************************/
 ?>
 
 <div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result_new.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>  </div>
   <div class="new-request"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Find your answer from here</a>
+    </div>
   </body>
   </html>
 
