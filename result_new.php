@@ -13,7 +13,7 @@ $u_name=$_SESSION['u_name'];
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="Find your koombiyo Character" />
     <meta property="og:description"   content="Koombiyo Is a famous teledrama.Do you like to find out your koombiyo character." />
-    <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_image<?php echo $u_id ?>.jpg" />
+    <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id ?>.jpg" />
   <style>
     img {display: block;
          margin-left: auto;
@@ -71,7 +71,7 @@ $myimg=$server_output['image'];
 
 ?>
 <!--<img src="data:image/png;base64, <?php //echo $myimg;?>" alt="Red dot" />-->
-  <img src="http://www.koombiyocharacter.me/ joined_image/joined_image<?php echo $u_id ?>.jpg">
+  <img src="http://www.koombiyocharacter.me/ joined_images/joined_image<?php echo $u_id ?>.jpg">
  <?php
 curl_close ($ch);
 /***********************************************************************************************/
