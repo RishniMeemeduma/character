@@ -25,7 +25,12 @@ $u_name=$_SESSION['u_name'];
          margin-bottom:20px;
         }
     .fb-share-button{
-        margin-left: 47%;
+            margin-left: 45%;
+            margin-right: 49%;
+            /* padding: 0 50px 0 10px; */
+            /* background-color: #3b5998; */
+            transform: scale(1.5);
+            transform-origin: top left;
         }
     .new-request{
         display: block;
@@ -37,6 +42,9 @@ $u_name=$_SESSION['u_name'];
         background: rgba(12, 159, 213, 0.78);
         color: #fff;
         font-size: 19px;
+        }
+    .new-request::after{
+        content:''
         }
     </style>
 </head>
