@@ -12,7 +12,7 @@ echo $u_id;
 		    <meta property="og:type"          content="website" />
 		    <meta property="og:title"         content="Find your koombiyo Character" />
 		    <meta property="og:description"   content="Koombiyo Is a famous teledrama.Do you like to find out your koombiyo character." />
-		    
+		    <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id ?>.jpg" />
   
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 		<style type='text/css'>
