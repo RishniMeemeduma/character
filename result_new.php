@@ -44,7 +44,7 @@ $u_name=$_SESSION['u_name'];
         font-size: 19px;
         }
     .new-request::after{
-        content:''
+        content:'>>'
         }
     </style>
 </head>
