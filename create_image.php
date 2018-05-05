@@ -1,4 +1,4 @@
-<?php
+
 <?php
 session_start();
 $u_id=$_SESSION['u_id'];
