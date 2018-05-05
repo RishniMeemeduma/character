@@ -12,7 +12,7 @@ $u_name=$_SESSION['u_name'];
     <meta property="og:url"          content="https://findcharacter.herokuapp.com/result_new.php" />
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="Find your koombiyo Character" />
-    <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id ?>.jpg" />
+    <!--<meta property="og:image"         content="http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id ?>.jpg" />-->
   <style>
     img {display: block;
          margin-left: auto;
