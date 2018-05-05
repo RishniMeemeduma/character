@@ -71,7 +71,7 @@ $myimg=$server_output['image'];
 
 ?>
 <!--<img src="data:image/png;base64, <?php //echo $myimg;?>" alt="Red dot" />-->
-  <img src="http://www.koombiyocharacter.me/joined_image<?php echo $u_id ?>.jpg">
+  <img src="http://www.koombiyocharacter.me/ joined_image/joined_image<?php echo $u_id ?>.jpg">
  <?php
 curl_close ($ch);
 /***********************************************************************************************/
