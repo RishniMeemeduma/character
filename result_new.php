@@ -15,6 +15,10 @@ $u_name=$_SESSION['u_name'];
     <meta property="og:description"   content="Koombiyo is a famous teledarama and you may like to check which character in koombiyo looks like you." />
     <!--<meta property="og:image"         content="http://www.koombiyocharacter.me/joined_images/joined_image<?php //echo $u_id ?>.jpg" />-->
   <style>
+    body{
+        background:url(https://n6-img-fp.akamaized.net/free-vector/gradient-abstract-texture-background_1340-2270.jpg?size=338&ext=jpg) no-repeat center;
+        background-size:cover;
+        }
     img {display: block;
          margin-left: auto;
          margin-right: auto;
