@@ -38,13 +38,13 @@ $u_name=$_SESSION['u_name'];
 
 <?php
 /********************* Randomly select Character form php********************************/        
-$characters= array("Hiruni","Priyantha","Adikari","Anjana","Meesha","Ananda","Jude","Thenne","Jehan","Maldeniya","Dog of Maldeniy","Tiran","Ostin aiya","Sudu nangi" );
+/*$characters= array("Hiruni","Priyantha","Adikari","Anjana","Meesha","Ananda","Jude","Thenne","Jehan","Maldeniya","Dog of Maldeniy","Tiran","Ostin aiya","Sudu nangi" );
 $k = array_rand($characters);
-$v = $characters[$k];
+$v = $characters[$k];*/
 /****************************************************************************************/
 
 /*****************************Using Curl Send and get the Image from webhost*****************/
-$ch = curl_init();
+/*$ch = curl_init();
       
 curl_setopt($ch, CURLOPT_URL,"http://koombiyoweb.000webhostapp.com/result_new.php");
 curl_setopt($ch, CURLOPT_POST, 1);
@@ -65,7 +65,7 @@ $server_output =json_decode($server_output, true);
 
 //echo var_dump($server_output);
 
-$myimg=$server_output['image'];
+$myimg=$server_output['image'];*/
 
 
 ?>
@@ -76,7 +76,10 @@ curl_close ($ch);
 /***********************************************************************************************/
 ?>
 
-<div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/index.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Findex.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>  </body>
+<div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/index.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Findex.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
+  </div>
+  <div class="new-request"><a href="https://findcharacter.herokuapp.com/index.php">Find your answer from here</a>
+  </body>
   </html>
 
 
