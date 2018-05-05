@@ -1,8 +1,3 @@
-<?php
-session_start();
-$u_id=$_SESSION['u_id'];
-echo $u_id;
-?>
 <!DOCTYPE HTML>
 <html>
 	<head>
