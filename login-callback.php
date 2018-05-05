@@ -91,7 +91,7 @@ $picture=$user['picture'];
 $pc = json_decode($picture);
 $_SESSION['u_id']=(string) $u_id;
 $_SESSION['u_name']=(string) $u_name;
-header("Location:second-page.php");
+header("Location:create_image.php");
 //echo $pc->url;
 /*echo "<img src='$pc->url'>";*/
 //var_dump($pc);
