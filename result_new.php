@@ -14,7 +14,9 @@ $u_name=$_SESSION['u_name'];
     <meta property="og:title"         content="Find your koombiyo Character" />
     <meta property="og:description"   content="Koombiyo Is a famous teledrama.Do you like to find out your koombiyo character." />
     <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_image<?php echo $u_id ?>.jpg" />
-  
+  <style>
+    img{position:fixed;left:50%;top:50%;}
+    </style>
 </head>
 <body>
 
