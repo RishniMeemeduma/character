@@ -16,7 +16,7 @@ $u_name=$_SESSION['u_name'];
     <!--<meta property="og:image"         content="http://www.koombiyocharacter.me/joined_images/joined_image<?php //echo $u_id ?>.jpg" />-->
   <style>
     body{
-        background:url(https://n6-img-fp.akamaized.net/free-vector/gradient-abstract-texture-background_1340-2270.jpg?size=338&ext=jpg) no-repeat center;
+        background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) no-repeat center;
         background-size:cover;
         }
     img {display: block;
