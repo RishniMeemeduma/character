@@ -24,6 +24,10 @@ $server_output = curl_exec ($ch);  //response
 $server_output =json_decode($server_output, true);
 //echo var_dump($server_output);
 $myimg=$server_output['image'];
+
+
+curl_close ($ch);
+/***********************************************************************************************/
 header("Location:second-page.php");
 ?>
 
