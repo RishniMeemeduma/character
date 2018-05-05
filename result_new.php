@@ -18,6 +18,7 @@ $u_name=$_SESSION['u_name'];
     img {display: block;
          margin-left: auto;
          margin-right: auto;
+         margin-bottom:20px;
         }
     .fb-share-button{
         margin-left: 47%;
