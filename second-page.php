@@ -15,7 +15,7 @@ $u_id=$_SESSION['u_id'];
   <style>
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 		<style type='text/css'>
-		body       {background: url(./ant.jpg)no-repeat top ;
+		body       {background: url(img/ant.jpg)no-repeat top ;
 			    background-size: inherit;
 			    position: relative ; 
 			    width:100% ;} 
