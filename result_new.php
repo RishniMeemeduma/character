@@ -9,7 +9,7 @@ $u_name=$_SESSION['u_name'];
 <head>
   <title></title>
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-    <meta property="og:url"          content="https://findcharacter.herokuapp.com/second-page.php" />
+    <meta property="og:url"          content="https://findcharacter.herokuapp.com/index.php" />
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="Find your koombiyo Character" />
     <meta property="og:description"   content="Koombiyo Is a famous teledrama.Do you like to find out your koombiyo character." />
@@ -77,8 +77,7 @@ curl_close ($ch);
 /***********************************************************************************************/
 ?>
 
-  <div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/second-page.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fsecond-page.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-  </body>
+<div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/index.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Findex.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>  </body>
   </html>
 
 
