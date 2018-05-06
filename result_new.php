@@ -19,7 +19,7 @@ $u_name=$_SESSION['u_name'];
         background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) no-repeat center;
         background-size:cover;
         }
-    img {display: block;
+    img {
         /* margin-left: auto;
          margin-right: auto;
          margin-bottom:20px;*/
@@ -43,11 +43,11 @@ $u_name=$_SESSION['u_name'];
         }
     .new-request{
         display: block;
-        margin-left: 28%;
+        /*margin-left: 28%;*/
         margin-top: 2%;
         /* margin-right: 30%; */
         /*margin-right: 28%;*/
-        padding: 1%;
+        padding: 3% 21%;
         background: rgba(12, 159, 213, 0.78);
         color: #fff;
         text-align:center;
@@ -61,7 +61,13 @@ $u_name=$_SESSION['u_name'];
         color:#fff;
         text-decoration:none;
         }
-   
+     .new
+        {
+         position: absolute;
+         display: inline;
+         left: 51%;
+         top: 47%;
+        }
     </style>
 </head>
 <body>
@@ -117,7 +123,7 @@ $myimg=$server_output['image'];*/
 ?>
 
 <div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result_new.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share Your Result via Facebook</a></div>  </div>
-  <div><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a>
+  <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a>
     </div>
   </body>
   </html>
