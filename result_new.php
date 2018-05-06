@@ -38,7 +38,7 @@ $u_name=$_SESSION['u_name'];
           transform-origin: top left;
           position: absolute !important;
           top: 162px;
-          left: 51%;
+          left: 61%;
 
         }
     .new-request{
@@ -48,7 +48,7 @@ $u_name=$_SESSION['u_name'];
         /* margin-right: 30%; */
         /* margin-right: 28%; */
         /* width: 171%; */
-        padding: 22px 128px;
+        padding: 12px 35px;
         background: rgba(12, 159, 213, 0.78);
         color: #fff;
         text-align: center;
@@ -66,7 +66,7 @@ $u_name=$_SESSION['u_name'];
         {
          position: absolute;
          display: inline;
-         left: 51%;
+         left: 61%;
          top: 47%;
         }
     </style>
