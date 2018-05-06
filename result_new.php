@@ -25,6 +25,7 @@ $u_name=$_SESSION['u_name'];
          margin-bottom:20px;*/
          margin-top: 91px;
          position: relative;
+         margin-left: 35px;
         }
     .fb-share-button{
             /*margin-left: 45%;
@@ -35,13 +36,13 @@ $u_name=$_SESSION['u_name'];
             transform-origin: top left;*/
           transform: scale(1.5);
           transform-origin: top left;
-          position: absolute;
+          position: absolute !important;
           top: 162px;
           left: 51%;
 }
         }
     .new-request{
-        /*display: block;
+        display: block;
         margin-left: 28%;
         margin-top: 2%;
         /* margin-right: 30%; */
@@ -51,9 +52,7 @@ $u_name=$_SESSION['u_name'];
         color: #fff;
         text-align:center;
         font-size:x-large;
-        width: 48%;
-        position: absolute;
-        left: 51%;
+        
         }
     .new-request::after{
         content:'  >>';    
