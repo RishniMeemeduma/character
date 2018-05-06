@@ -20,29 +20,40 @@ $u_name=$_SESSION['u_name'];
         background-size:cover;
         }
     img {display: block;
-         margin-left: auto;
+        /* margin-left: auto;
          margin-right: auto;
-         margin-bottom:20px;
+         margin-bottom:20px;*/
+         margin-top: 91px;
+         position: relative;
         }
     .fb-share-button{
-            margin-left: 45%;
+            /*margin-left: 45%;
             margin-right: 49%;
             /* padding: 0 50px 0 10px; */
             /* background-color: #3b5998; */
-            transform: scale(1.5);
-            transform-origin: top left;
+           /* transform: scale(1.5);
+            transform-origin: top left;*/
+          transform: scale(1.5);
+          transform-origin: top left;
+          position: absolute;
+          top: 162px;
+          left: 51%;
+}
         }
     .new-request{
-        display: block;
+        /*display: block;
         margin-left: 28%;
         margin-top: 2%;
         /* margin-right: 30%; */
-        margin-right: 28%;
+        /*margin-right: 28%;*/
         padding: 1%;
         background: rgba(12, 159, 213, 0.78);
         color: #fff;
         text-align:center;
         font-size:x-large;
+        width: 48%;
+        position: absolute;
+        left: 51%;
         }
     .new-request::after{
         content:'  >>';    
@@ -106,7 +117,7 @@ $myimg=$server_output['image'];*/
 /***********************************************************************************************/
 ?>
 
-<div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result_new.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>  </div>
+<div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result_new.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share Your Result via Facebook</a></div>  </div>
   <div><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a>
     </div>
   </body>
