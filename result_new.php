@@ -39,7 +39,7 @@ $u_name=$_SESSION['u_name'];
           position: absolute !important;
           top: 162px;
           left: 51%;
-}
+
         }
     .new-request{
         display: block;
