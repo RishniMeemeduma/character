@@ -46,7 +46,7 @@ $u_id=$_SESSION['u_id'];
             	  position: absolute;
                   width: inherit;
             	  left: calc(50% - 180px);
-            	  top:550px;
+            	  top:500px;
             	  color: #fff;
             	  font-size: 1.5em;
             	  padding: 20px 50px;
