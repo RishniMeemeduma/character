@@ -43,15 +43,16 @@ $u_name=$_SESSION['u_name'];
         }
     .new-request{
         display: block;
-        /*margin-left: 28%;*/
+        /* margin-left: 28%; */
         margin-top: 2%;
         /* margin-right: 30%; */
-        /*margin-right: 28%;*/
-        padding: 3% 21%;
+        /* margin-right: 28%; */
+        /* width: 171%; */
+        padding: 3% 22%;
         background: rgba(12, 159, 213, 0.78);
         color: #fff;
-        text-align:center;
-        font-size:x-large;
+        text-align: center;
+        font-size: x-large;
         
         }
     .new-request::after{
