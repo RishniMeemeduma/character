@@ -41,7 +41,7 @@ $u_name=$_SESSION['u_name'];
         padding: 1%;
         background: rgba(12, 159, 213, 0.78);
         color: #fff;
-        font-size: 19px;
+       
         }
    
     </style>
