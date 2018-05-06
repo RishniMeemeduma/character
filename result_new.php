@@ -45,10 +45,11 @@ $u_name=$_SESSION['u_name'];
         font-size:x-large;
         }
     .new-request::after{
-        content:'>>';    
+        content:'  >>';    
         }
-    .new-request::hover{
-        
+    .new-request:hover{
+        color:#fff;
+        text-decoration:none;
         }
    
     </style>
