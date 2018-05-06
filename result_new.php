@@ -41,7 +41,14 @@ $u_name=$_SESSION['u_name'];
         padding: 1%;
         background: rgba(12, 159, 213, 0.78);
         color: #fff;
-       
+        text-align:center;
+        font-size:x-large;
+        }
+    .new-request::after{
+        content:'>>';    
+        }
+    .new-request::hover{
+        
         }
    
     </style>
