@@ -23,7 +23,7 @@ $u_name=$_SESSION['u_name'];
         /* margin-left: auto;
          margin-right: auto;
          margin-bottom:20px;*/
-         margin-top: 91px;
+         margin-top: 80px;
          position: relative;
          margin-left: 35px;
         }
@@ -52,7 +52,7 @@ $u_name=$_SESSION['u_name'];
         background: rgba(12, 159, 213, 0.78);
         color: #fff;
         text-align: center;
-        font-size: 20px;
+        font-size: 15px;
         
         }
     .new-request::after{
