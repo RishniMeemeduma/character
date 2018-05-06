@@ -48,7 +48,7 @@ $u_name=$_SESSION['u_name'];
         /* margin-right: 30%; */
         /* margin-right: 28%; */
         /* width: 171%; */
-        padding: 3% 22%;
+        padding: 3% 25%;
         background: rgba(12, 159, 213, 0.78);
         color: #fff;
         text-align: center;
