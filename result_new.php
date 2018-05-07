@@ -3,6 +3,16 @@ session_start();
 $u_id=$_SESSION['u_id'];
 $u_name=$_SESSION['u_name'];  
 $time=time();
+
+$url = "http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id?>.jpg";
+$save_name = "image.jpg";
+$save_directory = "img/created/";
+
+if(is_writable($save_directory)) {
+    file_put_contents($save_directory . $save_name, file_get_contents($url));
+} else {
+    exit("Failed to write to directory "{$save_directory}");
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -119,7 +129,7 @@ $myimg=$server_output['image'];*/
 
 ?>
 <!--<img src="data:image/png;base64, <?php //echo $myimg;?>" alt="Red dot" />-->
-  <img src="http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id?>.jpg">
+  <img src="img/created/image.jpg">
  <?php
 //curl_close ($ch);
 /***********************************************************************************************/
