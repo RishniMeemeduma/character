@@ -3,7 +3,8 @@
 session_start();
 $u_id=$_SESSION['u_id'];
 $u_name=$_SESSION['u_name'];  
-
+$time=time();
+SESSION['$time'] =(string) $time1
 /********************* Randomly select Character form php********************************/        
 $characters= array("Hiruni","Priyantha","Adikari","Anjana","Meesha","Ananda","Jude","Thenne","Jehan","Maldeniya","Dog of Maldeniy","Tiran","Ostin aiya","Sudu nangi" );
 $k = array_rand($characters);
@@ -14,7 +15,7 @@ $ch = curl_init();
       
 curl_setopt($ch, CURLOPT_URL,"http://koombiyoweb.000webhostapp.com/result_new.php");
 curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS,"uname=$u_name&cname=$v&id=$u_id&time=time()");
+curl_setopt($ch, CURLOPT_POSTFIELDS,"uname=$u_name&cname=$v&id=$u_id&time=$time");
 // in real life you should use something like:
 // curl_setopt($ch, CURLOPT_POSTFIELDS, 
 //          http_build_query(array('postvar1' => 'value1')));
