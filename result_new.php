@@ -4,9 +4,6 @@ $u_id=$_SESSION['u_id'];
 $u_name=$_SESSION['u_name'];  
 $time=time();
 
-$url = "http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id?>.jpg";
-$save_name = "image.jpg";
-$save_directory = "img/created/";
 
 ?>
 <!DOCTYPE html>
@@ -124,7 +121,7 @@ $myimg=$server_output['image'];*/
 
 ?>
 <!--<img src="data:image/png;base64, <?php //echo $myimg;?>" alt="Red dot" />-->
-  <img src="img/created/image.jpg">
+  <img src="http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id?>.jpg">
  <?php
 //curl_close ($ch);
 /***********************************************************************************************/
