@@ -14,7 +14,7 @@ $ch = curl_init();
       
 curl_setopt($ch, CURLOPT_URL,"http://koombiyoweb.000webhostapp.com/result_new.php");
 curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS,"uname=$u_name&cname=$v&id=$u_id");
+curl_setopt($ch, CURLOPT_POSTFIELDS,"uname=$u_name&cname=$v&id=$u_id&time=time()");
 // in real life you should use something like:
 // curl_setopt($ch, CURLOPT_POSTFIELDS, 
 //          http_build_query(array('postvar1' => 'value1')));
