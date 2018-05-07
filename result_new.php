@@ -7,7 +7,9 @@ $time=time();
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find your koombiyo Character</title>
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
     <meta property="og:url"          content="https://findcharacter.herokuapp.com/result_new.php" />
     <meta property="og:type"          content="website" />
