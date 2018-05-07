@@ -1,9 +1,9 @@
 <?php
 session_start();
-$u_id=$_SESSION['u_id'];
+//$u_id=$_SESSION['u_id'];
 $u_name=$_SESSION['u_name'];  
 $time=$_SESSION['time'];
-
+$u_id=$_POST['u_id'];
 
 ?>
 <!DOCTYPE html>
@@ -13,11 +13,11 @@ $time=$_SESSION['time'];
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Find your koombiyo Character</title>
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-    <meta property="og:url"          content="http://www.koombiyocharacter.me/joined_images/joined_image<? $_GET[$u_id]?>.jpg" />
+    <meta property="og:url"          content="https://findcharacter.herokuapp.com/result_new.php/joined_image<?php echo $u_id?>.jpg" />
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="Find your koombiyo Character" />
     <meta property="og:description"   content="Koombiyo is a famous teledarama and you may like to check which character in koombiyo looks like you." />
-    <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_images/joined_image<? $_GET[$u_id]?>.jpg" />
+    <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id ?>.jpg" />
   <style>
     body{
         background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) no-repeat center;
