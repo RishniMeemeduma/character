@@ -8,11 +8,6 @@ $url = "http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_
 $save_name = "image.jpg";
 $save_directory = "img/created/";
 
-if(is_writable($save_directory)) {
-    file_put_contents($save_directory . $save_name, file_get_contents($url));
-} else {
-    exit("Failed to write to directory "{$save_directory}");
-}
 ?>
 <!DOCTYPE html>
 <html>
