@@ -1,9 +1,9 @@
 <?php
 session_start();
-//$u_id=$_SESSION['u_id'];
+$u_id=$_SESSION['u_id'];
 $u_name=$_SESSION['u_name'];  
 $time=$_SESSION['time'];
-$u_id=$_POST['u_id'];
+
 $og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg"
 ?>
 <!DOCTYPE html>
