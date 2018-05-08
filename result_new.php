@@ -6,13 +6,12 @@ $time=$_SESSION['time'];
 
 $og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
 
-require_once __DIR__ . '/src/Facebook/autoload.php'; // download official fb sdk for php @ https://github.com/facebook/php-graph-sdk
-
+require_once __DIR__ . '/vendor/autoload.php';
 $fb = new Facebook\Facebook([
-  'app_id' => 'APP_ID',
-  'app_secret' => 'APP_SECRET',
-  'default_graph_version' => 'v2.12',
-]);
+  'app_id' => '178728269598594', // Replace {app-id} with your app id
+  'app_secret' => '34759706ffb61f4b9add1dae533ca766',
+  'default_graph_version' => 'v2.2',
+  ]);
 
 $helper = $fb->getCanvasHelper();
 $permissions = ['email', 'publish_actions']; // optional
