@@ -17,6 +17,8 @@ $og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg"
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="Find your koombiyo Character" />
     <meta property="og:description"   content="Koombiyo is a famous teledarama and you may like to check which character in koombiyo looks like you." />
+    <meta property="og:image:width" content="1200" >
+    <meta property="og:image:height" content="630" >
     <meta property="og:image"         content="<?php echo $og_url; ?>" />
   <style>
     body{
