@@ -1,11 +1,11 @@
 <?php
 session_start();
 require_once __DIR__ . '/vendor/autoload.php';
-/*$u_id=$_GET['u_id'];
+$u_id=$_GET['u_id'];
 $u_name=$_SESSION['u_name'];  
-$time=$_SESSION['time'];*/
+$time=$_SESSION['time'];
 
-//$og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
+$og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
 $fb = new Facebook\Facebook([
    'app_id' => '178728269598594', // Replace {app-id} with your app id
   'app_secret' => '34759706ffb61f4b9add1dae533ca766',
