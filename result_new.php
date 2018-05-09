@@ -1,5 +1,6 @@
 <?php
 session_start();
+require_once __DIR__ . '/vendor/autoload.php';
 /*$u_id=$_GET['u_id'];
 $u_name=$_SESSION['u_name'];  
 $time=$_SESSION['time'];*/
