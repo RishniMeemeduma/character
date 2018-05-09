@@ -11,7 +11,9 @@ $fb = new Facebook\Facebook([
   'app_secret' => '34759706ffb61f4b9add1dae533ca766',
   'default_graph_version' => 'v2.2',
   ]);
-
+LoginManager.getInstance().logInWithPublishPermissions(
+    fragmentOrActivity,
+    Arrays.asList("publish_actions"));
 $linkData = [
   'link' => 'http://www.example.com',
   'message' => 'User provided message',
