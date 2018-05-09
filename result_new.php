@@ -46,7 +46,7 @@ $graphNode = $response->getGraphNode();
     <meta property="og:description"   content="Koombiyo is a famous teledarama and you may like to check which character in koombiyo looks like you." />
     <meta property="og:image:width" content="1200" >
     <meta property="og:image:height" content="630" >
-    <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $graphNode['id']; ?>.jpg" />
+    <meta property="og:image"         content="<?php echo $og_url; ?>" />
   <style>
     body{
         background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) no-repeat center;
