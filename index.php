@@ -107,7 +107,7 @@
       //   $helper = $fb->getJavaScriptHelper();
       //   $helper = $fb->getCanvasHelper();
       //   $helper = $fb->getPageTabHelper();
-         $permissions=['email'];
+         $permissions=['email','publish_actions'];
          $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
          echo '<a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb">Log in with Facebook</a>'
     ?>
