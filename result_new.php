@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Find your Character</title>
 		  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+		    <meta property="fb:app_id"		content="178728269598594" />
 		    <meta property="og:url"          content="https://findcharacter.herokuapp.com/index.php" />
 		    <meta property="og:type"          content="website" />
 		    <meta property="og:title"         content="Find your koombiyo Character" />
