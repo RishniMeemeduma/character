@@ -15,6 +15,7 @@ $fb = new Facebook\Facebook([
 $linkData = [
   'link' => 'https://findcharacter.herokuapp.com/result.php',
   'message' => '',
+   'name' => 'How to Auto Post on Facebook with PHP',
   'picture' => 'http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg',
   ];
 
