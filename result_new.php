@@ -120,26 +120,26 @@ $myimg=$server_output['image'];*/
 /***********************************************************************************************/
 ?>
 
-<div id="share_button" class="fb-share-button">
-    Share
+<div id="share_button" class="fb-share-button"><a href="share.php">
+    Share</a>
 </div>  
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a>
     </div>
- <script type="text/javascript">
+ <!--<script type="text/javascript">
         document.getElementById('share_button').onclick = function() {
                 FB.ui(
                 {
                     method: 'feed',
                     name: 'Your message',
                     link: 'your site url',
-                    picture: '<?php echo $baseurl; ?>/your/image/url',
+                    picture: '<?php// echo $baseurl; ?>/your/image/url',
                     caption: 'Image caption',
                     href: 'https://developers.facebook.com/docs/',
                     description: '',
                     message: 'This is the information that you want to show people.',
                 },function(response){});
             }
-    </script>
+    </script>-->
   </body>
   </html>
 
