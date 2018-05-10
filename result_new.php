@@ -174,9 +174,7 @@ $myimg=$server_output['image'];*/
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a>
     </div>
  <script type="text/javascript">
-        $(document).ready(function(){
-            $('#share_button').click(function(e){
-                e.preventDefault();
+        document.getElementById('share_button').onclick = function() {
                 FB.ui(
                 {
                     method: 'feed',
