@@ -33,6 +33,26 @@ $graphNode = $response->getGraphNode();
 //echo 'Posted with id: ' . $graphNode['id'];*/
 
 ?>
+<script src="http://connect.facebook.net/en_US/all.js"></script>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId        :'178728269598594',
+            status       : true, // check login status (we don't make use of this)
+            cookie       : true, // enable cookies to allow the server to access the session
+            xfbml        : true  // parse XFBML
+        });
+    };
+
+    // Load the SDK Asynchronously
+    (function(d){
+        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement('script'); js.id = id; js.async = true;
+        js.src = "//connect.facebook.net/en_US/all.js";
+        ref.parentNode.insertBefore(js, ref);           
+    }(document));
+</script>
 <!DOCTYPE html>
 <html>
 <head>
@@ -156,9 +176,29 @@ $myimg=$server_output['image'];*/
 /***********************************************************************************************/
 ?>
 
-<div class="fb-share-button"><a target="_blank" href="https://findcharacter.herokuapp.com/share.php">Share Your Result via Facebook</a></div>  </div>
+<div class="fb-share-button">
+    <a id="share_button" href=""><img src="images/fb_like.png" alt="" /></a>
+</div>  
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a>
     </div>
+   
+   <script type="text/javascript">
+        $(document).ready(function(){
+            $('#share_button').click(function(e){
+                e.preventDefault();
+                FB.ui(
+                {
+                    method: 'feed',
+                    name: 'Your message',
+                    link: 'your site url',
+                    picture: '<?php echo $baseurl; ?>/your/image/url',
+                    caption: 'Image caption',
+                    description: '',
+                    message: 'This is the information that you want to show people.'
+                });
+            });
+        });
+    </script>
   </body>
   </html>
 
