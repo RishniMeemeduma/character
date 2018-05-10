@@ -127,24 +127,7 @@ $graphNode = $response->getGraphNode();
     }(document));
 </script>
      
-   <script type="text/javascript">
-        $(document).ready(function(){
-            $('#share_button').click(function(e){
-                e.preventDefault();
-                FB.ui(
-                {
-                    method: 'feed',
-                    name: 'Your message',
-                    link: 'your site url',
-                    picture: '<?php echo $baseurl; ?>/your/image/url',
-                    caption: 'Image caption',
-                    href: 'https://developers.facebook.com/docs/',
-                    description: '',
-                    message: 'This is the information that you want to show people.'
-                });
-            });
-        });
-    </script>
+  
 <?php
 /********************* Randomly select Character form php********************************/        
 /*$characters= array("Hiruni","Priyantha","Adikari","Anjana","Meesha","Ananda","Jude","Thenne","Jehan","Maldeniya","Dog of Maldeniy","Tiran","Ostin aiya","Sudu nangi" );
@@ -190,7 +173,24 @@ $myimg=$server_output['image'];*/
 </div>  
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a>
     </div>
-
+ <script type="text/javascript">
+        $(document).ready(function(){
+            $('#share_button').click(function(e){
+                e.preventDefault();
+                FB.ui(
+                {
+                    method: 'feed',
+                    name: 'Your message',
+                    link: 'your site url',
+                    picture: '<?php echo $baseurl; ?>/your/image/url',
+                    caption: 'Image caption',
+                    href: 'https://developers.facebook.com/docs/',
+                    description: '',
+                    message: 'This is the information that you want to show people.'
+                });
+            });
+        });
+    </script>
   </body>
   </html>
 
