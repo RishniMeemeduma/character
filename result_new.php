@@ -106,26 +106,7 @@ $graphNode = $response->getGraphNode();
     </style>
 </head>
 <body>
-<script src="http://connect.facebook.net/en_US/all.js"></script>
-<script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId        :'178728269598594',
-            status       : true, // check login status (we don't make use of this)
-            cookie       : true, // enable cookies to allow the server to access the session
-            xfbml        : true  // parse XFBML
-        });
-    };
 
-    // Load the SDK Asynchronously
-    (function(d){
-        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement('script'); js.id = id; js.async = true;
-        js.src = "//connect.facebook.net/en_US/all.js";
-        ref.parentNode.insertBefore(js, ref);           
-    }(document));
-</script>
      
   
 <?php
