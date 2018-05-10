@@ -165,10 +165,9 @@ $myimg=$server_output['image'];*/
                     caption: 'Image caption',
                     href: 'https://developers.facebook.com/docs/',
                     description: '',
-                    message: 'This is the information that you want to show people.'
-                });
-            });
-        });
+                    message: 'This is the information that you want to show people.',
+                },function(response){});
+            }
     </script>
   </body>
   </html>
