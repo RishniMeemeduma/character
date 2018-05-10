@@ -185,7 +185,7 @@ $myimg=$server_output['image'];*/
 ?>
 
 <div class="fb-share-button">
-    <a id="share_button" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><img src="images/fb_like.png" alt="" />Share</a>
+    <a class="btn btn-small"  href="https://developers.facebook.com/docs/sharing/reference/share-dialog">Share</a>
 </div>  
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a>
     </div>
