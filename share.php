@@ -15,6 +15,7 @@ $fb = new Facebook\Facebook([
 $linkData = [
   'link' => 'https://findcharacter.herokuapp.com',
   'message' => '',
+  'picture' => 'http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg',
   ];
 
 try {
