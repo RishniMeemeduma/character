@@ -5,10 +5,10 @@
 		<title>Find your Character</title>
 		  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 		    <meta property="og:url"          content="https://findcharacter.herokuapp.com/index.php" />
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="Find your koombiyo Character" />
-    <meta property="og:description"   content="Koombiyo is a famous teledarama and you may like to check which character in koombiyo looks like you." />
-    <meta property="og:image"         content="https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/lWB96Z8sFtt.png" />
+		    <meta property="og:type"          content="website" />
+		    <meta property="og:title"         content="Find your koombiyo Character" />
+		    <meta property="og:description"   content="Koombiyo is a famous teledarama and you may like to check which character in koombiyo looks like you." />
+		    <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_images/joined_image967209046767984.jpg" />
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 		<style type='text/css'>
 		body       {background: url(./ant.jpg)no-repeat top ;
