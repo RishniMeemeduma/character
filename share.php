@@ -33,3 +33,14 @@ $graphNode = $response->getGraphNode();
 //echo 'Posted with id: ' . $graphNode['id'];
 
 ?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta property="og:url"          content="https://findcharacter.herokuapp.com/result_new.php" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Find your koombiyo Character" />
+    <meta property="og:description"   content="Koombiyo is a famous teledarama and you may like to check which character in koombiyo looks like you." />
+    <meta property="og:image:width" content="1200" >
+    <meta property="og:image:height" content="630" >
+    <meta property="og:image"         content="<?php echo $og_url; ?>" />
+   </head>
