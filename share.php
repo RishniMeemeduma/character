@@ -12,12 +12,12 @@ $fb = new Facebook\Facebook([
   'default_graph_version' => 'v2.2',
   ]);
 
-$linkData = [
+$linkData = array(
   'link' => 'https://findcharacter.herokuapp.com/result.php',
   'message' => '',
    'name' => 'How to Auto Post on Facebook with PHP',
   'picture' => 'http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg',
-  ];
+  );
 
 try {
   // Returns a `Facebook\FacebookResponse` object
