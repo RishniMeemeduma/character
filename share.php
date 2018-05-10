@@ -13,7 +13,7 @@ $fb = new Facebook\Facebook([
   ]);
 
 $linkData = [
-  'link' => 'https://findcharacter.herokuapp.com/result_new.php?u_id=$u_id',
+  'link' => 'https://findcharacter.herokuapp.com/result_new.php',
   'message' => 'User provided message',
   ];
 
