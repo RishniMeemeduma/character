@@ -33,26 +33,7 @@ $graphNode = $response->getGraphNode();
 //echo 'Posted with id: ' . $graphNode['id'];*/
 
 ?>
-<script src="http://connect.facebook.net/en_US/all.js"></script>
-<script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId        :'178728269598594',
-            status       : true, // check login status (we don't make use of this)
-            cookie       : true, // enable cookies to allow the server to access the session
-            xfbml        : true  // parse XFBML
-        });
-    };
 
-    // Load the SDK Asynchronously
-    (function(d){
-        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement('script'); js.id = id; js.async = true;
-        js.src = "//connect.facebook.net/en_US/all.js";
-        ref.parentNode.insertBefore(js, ref);           
-    }(document));
-</script>
 <!DOCTYPE html>
 <html>
 <head>
@@ -125,17 +106,27 @@ $graphNode = $response->getGraphNode();
     </style>
 </head>
 <body>
+<script src="http://connect.facebook.net/en_US/all.js"></script>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId        :'178728269598594',
+            status       : true, // check login status (we don't make use of this)
+            cookie       : true, // enable cookies to allow the server to access the session
+            xfbml        : true  // parse XFBML
+        });
+    };
 
-   <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=178728269598594&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-    </script>
-
+    // Load the SDK Asynchronously
+    (function(d){
+        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement('script'); js.id = id; js.async = true;
+        js.src = "//connect.facebook.net/en_US/all.js";
+        ref.parentNode.insertBefore(js, ref);           
+    }(document));
+</script>
+  
 <?php
 /********************* Randomly select Character form php********************************/        
 /*$characters= array("Hiruni","Priyantha","Adikari","Anjana","Meesha","Ananda","Jude","Thenne","Jehan","Maldeniya","Dog of Maldeniy","Tiran","Ostin aiya","Sudu nangi" );
@@ -177,7 +168,7 @@ $myimg=$server_output['image'];*/
 ?>
 
 <div class="fb-share-button">
-    <a id="share_button" href=""><img src="images/fb_like.png" alt="" /></a>
+    <a id="share_button" href=""><img src="images/fb_like.png" alt="" />Share</a>
 </div>  
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a>
     </div>
