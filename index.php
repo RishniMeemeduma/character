@@ -10,7 +10,7 @@
     <meta property="og:description"   content="Koombiyo is a famous teledarama and you may like to check which character in koombiyo looks like you." />
     <meta property="og:image:width" content="1200" >
     <meta property="og:image:height" content="630" >
-    <meta property="og:image"         content="<?php echo $og_url; ?>" />
+    <meta property="og:image"         content="https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/lWB96Z8sFtt.png" />
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 		<style type='text/css'>
 		body       {background: url(./ant.jpg)no-repeat top ;
