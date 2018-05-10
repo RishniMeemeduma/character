@@ -138,6 +138,7 @@ $graphNode = $response->getGraphNode();
                     link: 'your site url',
                     picture: '<?php echo $baseurl; ?>/your/image/url',
                     caption: 'Image caption',
+                    href: 'https://developers.facebook.com/docs/',
                     description: '',
                     message: 'This is the information that you want to show people.'
                 });
