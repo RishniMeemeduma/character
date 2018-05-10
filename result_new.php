@@ -1,12 +1,4 @@
-<?php
-session_start();
-require_once __DIR__ . '/vendor/autoload.php';
-$u_id=$_SESSION['u_id'];
-$u_name=$_SESSION['u_name'];  
-$time=$_SESSION['time'];
 
-$og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
-?>
 
 <!DOCTYPE html>
 <html>
@@ -81,7 +73,15 @@ $og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
 </head>
 <body>
 
-     
+<?php
+session_start();
+require_once __DIR__ . '/vendor/autoload.php';
+$u_id=$_SESSION['u_id'];
+$u_name=$_SESSION['u_name'];  
+$time=$_SESSION['time'];
+
+$og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
+?>     
   
 <?php
 /********************* Randomly select Character form php********************************/        
