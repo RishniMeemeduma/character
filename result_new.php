@@ -78,7 +78,10 @@ $timing=$_SESSION['timing'];
 		 }
 	.new{
 		 }
-	}
+	
+	.image{
+	  }
+	  }
     </style>
     
 </head>
