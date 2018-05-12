@@ -37,7 +37,7 @@ $timing=$_SESSION['timing'];
 		 margin-right:auto;
         }
 	 #share{
-		 margin-top:40px;
+		 margin-top:5%;
 	  }
    	.fb-share-button{
 		  transform: scale(1.5);
@@ -96,7 +96,10 @@ $timing=$_SESSION['timing'];
 		<div id="share" class="col-lg-3 col-md-3 col-sm-3">
 		<div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result_new.php?img=<?php echo $img ?>" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php%3Fimg%3D%253C%253Fphp%2Becho%2B%2524img%2B%253F%253E&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 		</div>
-		<div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">f.aula .y,u n,uqo@</a></div>
+		
+		<div id="new" class="col-lg-3 col-md-3 col-sm-3">
+			<a class="new-request" href="https://findcharacter.herokuapp.com/index.php">f.aula .y,u n,uqo@</a>
+		</div>
 	</div>
 </div>
 
