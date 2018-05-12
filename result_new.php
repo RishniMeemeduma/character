@@ -54,9 +54,7 @@ $timing=$_SESSION['timing'];
         font-size: 17px;
          font-family: araliya;
         }
-    .new-request::after{
-        content:'  >>';    
-        }
+    
     .new-request:hover{
         color:#fff;
         text-decoration:none;
