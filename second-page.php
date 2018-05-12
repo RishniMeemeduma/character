@@ -1,7 +1,7 @@
 <?php
 session_start();
 $u_id=$_SESSION['u_id'];
-$timing=$_SESSION['timing']
+$timing=$_SESSION['timing'];
 //echo $u_id;
 ?>
 <!DOCTYPE HTML>
@@ -105,7 +105,7 @@ $timing=$_SESSION['timing']
 				<input type="submit" class="button" name="submit" value="Click here">
 			</form> -->
 
-      <a class="button" href="result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id ?>.jpg">Click here to find your answer</a>
+      <a class="button" href="result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id.$timing ?>.jpg">Click here to find your answer</a>
 			
 		</div>	
 	</body>
