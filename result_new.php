@@ -33,6 +33,7 @@ $timing=$_SESSION['timing'];
         }
 	.container{
 		background-color:white;
+		margin-top:10px;
 	}
    	 #image {
          	margin-top: 78px;
