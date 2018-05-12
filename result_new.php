@@ -31,7 +31,7 @@ $timing=$_SESSION['timing'];
         background-size:cover;
 	
         }
-    img {
+    image {
          
         }
     .fb-share-button{
