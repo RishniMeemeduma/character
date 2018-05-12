@@ -93,7 +93,7 @@ $timing=$_SESSION['timing'];
 	<div class="row">
 		<div id="image" class="col-lg-9 col-md-9 col-sm-9">
 		<center>
-		  <img src="<?php echo $img ?>">
+		  <img class="col-lg-9 col-md-9 col-sm-9" src="<?php echo $img ?>">
 		</center>
 		</div>
 			
