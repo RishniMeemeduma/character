@@ -66,15 +66,17 @@ $timing=$_SESSION['timing'];
          left: 71%;
          top: 47%;
         }
-	 @media screen and (max-width: 992px) {
-	  body {
-	    background-color: blue;
+   @media screen and (max-width: 992px) {
+	body {
+	   
 	  }
 	img{
+	    margin-left: 0;
+   	    margin-right: 0;
 	}
 	.fb-share-button{
 		 }
-	.new-request{
+	.new{
 		 }
 	}
     </style>
