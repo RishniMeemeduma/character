@@ -22,40 +22,42 @@ $timing=$_SESSION['timing'];
 	<meta property="og:image"         content="<?php echo $img ?>" />
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <style>
-   @font-face {
-	 font-family: araliya;
-	 src: url(fonts/ARALIYA.TTF);
+ 	@font-face {
+		font-family: araliya;
+		src: url(fonts/ARALIYA.TTF);
 	}
-    body{
-        background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) repeat center;
-        background-size:cover;
+    	body{
+       	 background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) repeat center;
+       	 background-size:cover;
 	
         }
-    image {
+   	 .image {
          
         }
-    .fb-share-button{
-          transform: scale(1.5);
-          transform-origin: top left;
-          position: absolute !important;
-          top: 162px;
-          left: 71%;
+	  .img{
+	  }
+   	.fb-share-button{
+		  transform: scale(1.5);
+		  transform-origin: top left;
+		  position: absolute !important;
+		  top: 162px;
+		  left: 71%;
 
         }
     .new-request{
         
-        background: rgba(12, 159, 213, 0.78);
-        color: #fff;
-        text-align: center;
-        font-size: 24px;
-         font-family: araliya;
+		background: rgba(12, 159, 213, 0.78);
+		color: #fff;
+		text-align: center;
+		font-size: 24px;
+		 font-family: araliya;
         }
      .new
         {
-         position: absolute;
-         display: inline;
-         left: 71%;
-         top: 47%;
+		 position: absolute;
+		 display: inline;
+		 left: 71%;
+		 top: 47%;
         }
    @media screen and (max-width: 992px) {
 	body {
