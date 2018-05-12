@@ -103,9 +103,9 @@ $timing=$_SESSION['timing'];
 			
 		<div id="share" class="col-lg-3 col-md-3 col-sm-3">
 		<center>
-		<a class="fb-xfbml-parse-ignore" onclick="javascript:window.open(this.href,
-                                                '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
-                                        return false;" href="https://findcharacter.herokuapp.com/result_new.php?img=<?php echo $img ?>" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php%3Fimg%3D%253C%253Fphp%2Becho%2B%2524img%2B%253F%253E&amp;src=sdkpreparse" >Share</a></div>
+		<div data-href="https://findcharacter.herokuapp.com/result_new.php?img=<?php echo $img ?>" data-mobile-iframe="true">
+			<a class="fb-xfbml-parse-ignore"  onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;" 
+			   href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php%3Fimg%3D%253C%253Fphp%2Becho%2B%2524img%2B%253F%253E&amp;src=sdkpreparse" >Share</a></div>
 		</center>
 		</div>
 	</div>
