@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 
 session_start();
 require_once __DIR__ . '/vendor/autoload.php';
@@ -25,7 +22,7 @@ $fb = new Facebook\Facebook([
 			href: 'https://findcharacter.herokuapp.com/result_new.php',
 			message: 'This is the information that you want to show people.',
 		},function(response){});
-	}
+	};
 
 
 $og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
@@ -133,7 +130,7 @@ $myimg=$server_output['image'];*/
 /***********************************************************************************************/
 ?>
 
-  <div id="share_button" class="fb-share-button"><button onclick="fb_share">Share</button></div>  
+  <div id="share_button" class="fb-share-button"><a onclick="fb_share">Share</a></div>  
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a></div>
 	
 
