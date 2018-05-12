@@ -31,20 +31,11 @@ $og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
         background-size:cover;
         }
     img {
-        /* margin-left: auto;
-         margin-right: auto;
-         margin-bottom:20px;*/
          margin-top: 80px;
          position: relative;
          margin-left: 35px;
         }
     .fb-share-button{
-            /*margin-left: 45%;
-            margin-right: 49%;
-            /* padding: 0 50px 0 10px; */
-            /* background-color: #3b5998; */
-           /* transform: scale(1.5);
-            transform-origin: top left;*/
           transform: scale(1.5);
           transform-origin: top left;
           position: absolute !important;
@@ -54,11 +45,7 @@ $og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
         }
     .new-request{
         display: block;
-        /* margin-left: 28%; */
         margin-top: 2%;
-        /* margin-right: 30%; */
-        /* margin-right: 28%; */
-        /* width: 171%; */
         padding: 12px 20px;
         background: rgba(12, 159, 213, 0.78);
         color: #fff;
