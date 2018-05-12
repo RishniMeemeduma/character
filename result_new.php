@@ -67,6 +67,21 @@
          top: 47%;
         }
     </style>
+    <script type="text/javascript">
+	function fb_share() {
+		FB.ui(
+		{
+			method: 'feed',
+			name: 'Your message',
+			link: 'https://findcharacter.herokuapp.com/result_new.php',
+			picture: '<?php echo $og_url;?>',
+			caption: 'Image caption',
+			href: 'https://findcharacter.herokuapp.com/result_new.php',
+			message: 'This is the information that you want to show people.',
+		},function(response){});
+	}
+
+    </script>
 </head>
 <body>
 
@@ -123,21 +138,7 @@ $myimg=$server_output['image'];*/
   <div id="share_button" class="fb-share-button"><button onclick="function fb_share();">Share</button></div>  
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a></div>
 	
- <script type="text/javascript">
-        function fb_share() {
-                FB.ui(
-                {
-                    method: 'feed',
-                    name: 'Your message',
-                    link: 'https://findcharacter.herokuapp.com/result_new.php',
-                    picture: '<?php echo $og_url;?>',
-                    caption: 'Image caption',
-                    href: 'https://findcharacter.herokuapp.com/result_new.php',
-                    message: 'This is the information that you want to show people.',
-                },function(response){});
-            }
-	
- </script>
+
   </body>
   </html>
 
