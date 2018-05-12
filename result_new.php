@@ -51,7 +51,7 @@ $timing=$_SESSION['timing'];
         background: rgba(12, 159, 213, 0.78);
         color: #fff;
         text-align: center;
-        font-size: 17px;
+        font-size: 24px;
          font-family: araliya;
         }
     
