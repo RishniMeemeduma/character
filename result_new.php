@@ -9,6 +9,25 @@ $u_id=$_SESSION['u_id'];
 $u_name=$_SESSION['u_name'];  
 $time=$_SESSION['time'];
 
+$fb = new Facebook\Facebook([
+   'app_id' => '178728269598594', // Replace {app-id} with your app id
+  'app_secret' => '34759706ffb61f4b9add1dae533ca766',
+  'default_graph_version' => 'v2.2',
+  ]);
+	function fb_share() {
+		FB.ui(
+		{
+			method: 'feed',
+			name: 'Your message',
+			link: 'https://findcharacter.herokuapp.com/result_new.php',
+			picture: '<?php echo $og_url;?>',
+			caption: 'Image caption',
+			href: 'https://findcharacter.herokuapp.com/result_new.php',
+			message: 'This is the information that you want to show people.',
+		},function(response){});
+	}
+
+
 $og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
 
 ?>     
@@ -69,21 +88,7 @@ $og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
          top: 47%;
         }
     </style>
-    <script type="text/javascript">
-	function fb_share() {
-		FB.ui(
-		{
-			method: 'feed',
-			name: 'Your message',
-			link: 'https://findcharacter.herokuapp.com/result_new.php',
-			picture: '<?php echo $og_url;?>',
-			caption: 'Image caption',
-			href: 'https://findcharacter.herokuapp.com/result_new.php',
-			message: 'This is the information that you want to show people.',
-		},function(response){});
-	}
-
-    </script>
+    
 </head>
 <body>
 
@@ -128,7 +133,7 @@ $myimg=$server_output['image'];*/
 /***********************************************************************************************/
 ?>
 
-  <div id="share_button" class="fb-share-button"><button href="share.php">Share</button></div>  
+  <div id="share_button" class="fb-share-button"><button onclick="fb_share">Share</button></div>  
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a></div>
 	
 
