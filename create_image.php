@@ -30,7 +30,7 @@ $myimg=$server_output['image'];
 
 curl_close ($ch);
 /***********************************************************************************************/
-header("Location:second-page.php");
+//header("Location:second-page.php");
 ?>
 
 
