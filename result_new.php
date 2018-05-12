@@ -62,7 +62,7 @@ $timing=$_SESSION['timing'];
 	body {
 	   
 	  }
-	img{
+	.img-responsive{
 	    margin-left: 0;
    	    margin-right: 0;
 	}
@@ -93,7 +93,7 @@ $timing=$_SESSION['timing'];
 	<div class="row">
 		<div id="image" class="col-lg-9 col-md-9 col-sm-9">
 		<center>
-		  <img class="col-lg-9 col-md-9 col-sm-9" src="<?php echo $img ?>">
+		  <img class="img-responsive" src="<?php echo $img ?>">
 		</center>
 		</div>
 			
