@@ -52,7 +52,7 @@ $timing=$_SESSION['timing'];
         color: #fff;
         text-align: center;
         font-size: 17px;
-        
+        font-family: myCustomFont;
         }
     .new-request::after{
         content:'  >>';    
