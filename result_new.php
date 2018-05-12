@@ -23,8 +23,8 @@ $timing=$_SESSION['timing'];
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <style>
    @font-face {
-	 font-family: myCustomFont;
-	 src: url(fonts/10 FN_Nilanthi sinhala font by Aluth.com.TTF);
+	 font-family: araliya;
+	 src: url(fonts/ARALIYA.TTF);
 	}
     body{
         background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) no-repeat center;
@@ -52,7 +52,7 @@ $timing=$_SESSION['timing'];
         color: #fff;
         text-align: center;
         font-size: 17px;
-        font-family: myCustomFont;
+         font-family: araliya;
         }
     .new-request::after{
         content:'  >>';    
