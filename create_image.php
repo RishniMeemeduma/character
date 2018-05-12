@@ -4,6 +4,7 @@ session_start();
 $u_id=$_SESSION['u_id'];
 $u_name=$_SESSION['u_name'];  
 $timing=time('s');
+echo $timing;
 $_SESSION['time'] =(string) $time;
 /********************* Randomly select Character form php********************************/        
 $characters= array("Hiruni","Priyantha","Adikari","Anjana","Meesha","Ananda","Jude","Thenne","Jehan","Maldeniya","Dog of Maldeniy","Tiran","Ostin aiya","Sudu nangi" );
