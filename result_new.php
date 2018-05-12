@@ -58,11 +58,13 @@ $timing=$_SESSION['timing'];
 		text-align: center;
 		font-size: 24px;
 		 font-family: araliya;
+	    
         }
      #new
         {
 	background-color: teal;	 
 	margin-top:19px;
+	border-radius:25%;
         }
    @media screen and (max-width:990px) {
 	body {
