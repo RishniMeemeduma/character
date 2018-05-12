@@ -3,7 +3,7 @@
 session_start();
 require_once __DIR__ . '/vendor/autoload.php';
 
-$u_id=$_POST['u_id'];
+$u_id=$_GET['u_id'];
 $u_name=$_SESSION['u_name'];  
 $time=$_SESSION['time'];
 ?>     
@@ -19,7 +19,7 @@ $time=$_SESSION['time'];
 	<meta property="og:type"          content="website" />
 	<meta property="og:title"         content="Find your koombiyo Character" />
 	<meta property="og:description"   content="Koombiyo is a famous teledarama and you may like to check which character in koombiyo looks like you." />
-	<meta property="og:image"         content="http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $og_url ?>.jpg" />
+	<meta property="og:image"         content="http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id ?>.jpg" />
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <style>
     body{
