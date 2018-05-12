@@ -15,7 +15,7 @@ $time=$_SESSION['time'];
 	<title>Find your Character</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	<meta property="fb:app_id"		content="178728269598594" />
-	<meta property="og:url"          content="https://findcharacter.herokuapp.com/result_new.php" />
+	<!--<meta property="og:url"          content="https://findcharacter.herokuapp.com/result_new.php" />-->
 	<meta property="og:type"          content="website" />
 	<meta property="og:title"         content="Find your koombiyo Character" />
 	<meta property="og:description"   content="Koombiyo is a famous teledarama and you may like to check which character in koombiyo looks like you." />
@@ -117,7 +117,7 @@ $myimg=$server_output['image'];*/
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
   
-  <div id="share_button" class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result_new.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+  <div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image967209046767984.jpg" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php%3Fimg%3Dhttp%253A%252F%252Fwww.koombiyocharacter.me%252Fjoined_images%252Fjoined_image967209046767984.jpg&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a></div>
 	
 
