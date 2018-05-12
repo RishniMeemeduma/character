@@ -120,11 +120,9 @@ $myimg=$server_output['image'];*/
 /***********************************************************************************************/
 ?>
 
-<div id="share_button" class="fb-share-button">
-    Share
-</div>  
-  <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a>
-    </div>
+  <div id="share_button" class="fb-share-button" onclick="fb_share();">Share</div>  
+  <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a></div>
+	
  <script type="text/javascript">
         function fb_share() {
                 FB.ui(
@@ -141,7 +139,7 @@ $myimg=$server_output['image'];*/
 	 $(document).ready(function(){
 	 $('.fb-share-button').on('click',fb_share);
 	 });
-    </script>
+ </script>
   </body>
   </html>
 
