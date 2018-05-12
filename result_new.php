@@ -66,9 +66,11 @@ $timing=$_SESSION['timing'];
          left: 71%;
          top: 47%;
         }
-	  @media screen and(max-width:791px){
-		  img{ }
+	 @media screen and (max-width: 992px) {
+	  body {
+	    background-color: blue;
 	  }
+	}
     </style>
     
 </head>
