@@ -5,7 +5,6 @@ require_once __DIR__ . '/vendor/autoload.php';
 $u_id=$_SESSION['u_id'];
 $u_name=$_SESSION['u_name'];  
 $time=$_SESSION['time'];
-$og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
 ?>     
   
 <!DOCTYPE HTML>
@@ -103,7 +102,7 @@ $myimg=$server_output['image'];*/
 
 ?>
 <!--<img src="data:image/png;base64, <?php //echo $myimg;?>" alt="Red dot" />-->
-  <img src="<?php echo $og_url;?>">
+  <img src="http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id?>.jpg">
  <?php
 //curl_close ($ch);
 /***********************************************************************************************/
