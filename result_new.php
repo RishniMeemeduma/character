@@ -24,7 +24,7 @@ $timing=$_SESSION['timing'];
   <style>
    @font-face {
 	 font-family: myCustomFont;
-	 src: url(font/);
+	 src: url(fonts/10 FN_Nilanthi sinhala font by Aluth.com.TTF);
 	}
     body{
         background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) no-repeat center;
