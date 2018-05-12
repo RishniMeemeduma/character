@@ -55,7 +55,7 @@ $timing=$_SESSION['timing'];
         }
      #new
         {
-		 
+	background-color: teal;	 
         }
    @media screen and (max-width: 992px) {
 	body {
@@ -78,6 +78,16 @@ $timing=$_SESSION['timing'];
     
 </head>
 <body>
+	<script>
+		(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0&appId=178728269598594&autoLogAppEvents=1';
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+	</script>
+	
 <div class="container">
 	<div class="row">
 		<div id="image" class="col-lg-8 col-md-8 col-sm-8">
@@ -85,13 +95,7 @@ $timing=$_SESSION['timing'];
 		  <img src="<?php echo $img ?>">
 		</center>
 		</div>
-			<script>(function(d, s, id) {
-			  var js, fjs = d.getElementsByTagName(s)[0];
-			  if (d.getElementById(id)) return;
-			  js = d.createElement(s); js.id = id;
-			  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0&appId=178728269598594&autoLogAppEvents=1';
-			  fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));</script>
+			
 		<div id="share" class="col-lg-3 col-md-3 col-sm-3">
 		<div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result_new.php?img=<?php echo $img ?>" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php%3Fimg%3D%253C%253Fphp%2Becho%2B%2524img%2B%253F%253E&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 		</div>
