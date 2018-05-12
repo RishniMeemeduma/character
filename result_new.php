@@ -62,7 +62,7 @@ $timing=$_SESSION['timing'];
 	background-color: teal;	 
 	margin-top:19px;
         }
-   @media screen and (max-width: 992px) {
+   @media screen and (max-width:900px) {
 	body {
 	   
 	  }
@@ -102,9 +102,11 @@ $timing=$_SESSION['timing'];
 		</div>
 			
 		<div id="share" class="col-lg-3 col-md-3 col-sm-3">
+		<center>
 		<div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result_new.php?img=<?php echo $img ?>" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php%3Fimg%3D%253C%253Fphp%2Becho%2B%2524img%2B%253F%253E&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+		</center>
 		</div>
-		</div>
+	</div>
 	<div class="row">
 		<div id="new" class="col-lg-9 col-md-9 col-sm-9">
 			<center>
