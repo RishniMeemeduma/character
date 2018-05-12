@@ -13,6 +13,8 @@ $timing=$_SESSION['timing'];
 	<head>
 	<meta charset="utf-8">
 	<title>Find your Character</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	<meta property="fb:app_id"		content="178728269598594" />
 	<!--<meta property="og:url"          content="https://findcharacter.herokuapp.com/result_new.php" />-->
@@ -20,7 +22,7 @@ $timing=$_SESSION['timing'];
 	<meta property="og:title"         content="Find your koombiyo Character" />
 	<meta property="og:description"   content="Koombiyo is a famous teledarama and you may like to check which character in koombiyo looks like you." />
 	<meta property="og:image"         content="<?php echo $img ?>" />
-	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	
   <style>
  	@font-face {
 		font-family: araliya;
@@ -62,7 +64,7 @@ $timing=$_SESSION['timing'];
 	background-color: teal;	 
 	margin-top:19px;
         }
-   @media screen and (max-width:900px) {
+   @media screen and (max-width:990px) {
 	body {
 	   
 	  }
