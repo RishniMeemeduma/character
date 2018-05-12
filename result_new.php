@@ -9,6 +9,8 @@ $time=$_SESSION['time'];
 
 $og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
 
+
+
 ?>     
   
 <!DOCTYPE HTML>
@@ -112,7 +114,7 @@ $myimg=$server_output['image'];*/
 /***********************************************************************************************/
 ?>
 
-  <div id="share_button" class="fb-share-button"><a onclick="fb_share">Share</a></div>  
+  <div id="share_button" class="fb-share-button"><a href="share.php">Share</a></div>  
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a></div>
 	
 
