@@ -70,6 +70,12 @@ $timing=$_SESSION['timing'];
 	  body {
 	    background-color: blue;
 	  }
+	img{
+	}
+	.fb-share-button{
+		 }
+	.new-request{
+		 }
 	}
     </style>
     
