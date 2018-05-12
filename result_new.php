@@ -5,7 +5,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 $img=$_GET['img'];
 $u_name=$_SESSION['u_name'];  
-$time=$_SESSION['time'];
+$timing=$_SESSION['timing'];
 ?>     
   
 <!DOCTYPE HTML>
