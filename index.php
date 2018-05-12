@@ -3,14 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Find your Character</title>
-		  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		    <meta property="og:url"          content="https://findcharacter.herokuapp.com/index.php" />
-		    <meta property="og:type"          content="website" />
-		    <meta property="og:title"         content="Find your koombiyo Character" />
-		    <meta property="og:description"   content="Koombiyo is a famous teledarama and you may like to check which character in koombiyo looks like you." />
-		    <meta property="og:image"         content="http://www.koombiyocharacter.me/joined_images/joined_image967209046767984.jpg" />
-		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+		<meta name="viewport content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css"> 
 		<style type='text/css'>
 		body       {background: url(./ant.jpg)no-repeat top ;
 			    background-size: inherit;
@@ -118,17 +112,6 @@
     ?>
 		<div class="container" >
 			<h1 class="topic">Find your Koombiyo Character</h1>
-			<!-- <form action="result.php" method="POST">
-				<label class="question">If There are two people who will you chose</label><br>
-				<input type='radio' name="choice" value="Knife" checked><label class=''>Knife</label><br>
-				<input type='radio' name="choice" value="Gun"><label>Gun</label><br>
-				<input type='radio' name="choice" value="Crackers"><label>Crackers</label><br>
-				<input type='radio' name="choice" value="Run"><label>Run</label><br>
-				<input type="submit" class="button" name="submit" value="Click here">
-			</form> -->
-
-      <!--<a class="button" href="result.php">Click here</a>-->
-			
 		</div>	
 	</body>
 </html>
