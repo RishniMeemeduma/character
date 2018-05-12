@@ -134,7 +134,7 @@ $myimg=$server_output['image'];*/
                     link: 'https://findcharacter.herokuapp.com/result_new.php',
                     picture: '<?php echo $og_url;?>',
                     caption: 'Image caption',
-                    href: 'https://findcharacter.herokuapp.com/result_new.php
+                    href: 'https://findcharacter.herokuapp.com/result_new.php',
                     message: 'This is the information that you want to show people.',
                 },function(response){});
             }
