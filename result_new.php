@@ -96,7 +96,9 @@ $timing=$_SESSION['timing'];
 		</div>
 	<div class="row">
 		<div id="new" class="col-lg-8 col-md-8 col-sm-8">
+			<center>
 			<a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Thdf. prsf;;a fu;kska n,d.uq</a>
+			</center>
 		</div>
 	</div>
 </div>
