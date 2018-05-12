@@ -25,6 +25,7 @@ $timing=$_SESSION['timing'];
     body{
         background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) no-repeat center;
         background-size:cover;
+	font-family:10 FN_Nilanthi sinhala font by Aluth.com.TTF;
         }
     img {
          margin-top: 80px;
