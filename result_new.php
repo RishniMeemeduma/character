@@ -33,8 +33,7 @@ $timing=$_SESSION['timing'];
         }
    	 #image {
          	margin-top: 78px;
-		 margin-left:auto;
-		 margin-right:auto;
+		
         }
 	 #share{
 		 margin-top:183px;
@@ -81,7 +80,9 @@ $timing=$_SESSION['timing'];
 <div class="container">
 	<div class="row">
 		<div id="image" class="col-lg-8 col-md-8 col-sm-8">
+		<center>
 		  <img src="<?php echo $img ?>">
+		</center>
 		</div>
 			<script>(function(d, s, id) {
 			  var js, fjs = d.getElementsByTagName(s)[0];
