@@ -27,7 +27,7 @@ $timing=$_SESSION['timing'];
 	 src: url(fonts/ARALIYA.TTF);
 	}
     body{
-        background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) no-repeat center;
+        background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) repeat center;
         background-size:cover;
 	
         }
@@ -46,7 +46,7 @@ $timing=$_SESSION['timing'];
         }
     .new-request{
         display: block;
-        margin-top: 2%;
+        margin-top: 30%;
         padding: 12px 20px;
         background: rgba(12, 159, 213, 0.78);
         color: #fff;
@@ -66,6 +66,7 @@ $timing=$_SESSION['timing'];
          left: 71%;
          top: 47%;
         }
+	@media screen and()
     </style>
     
 </head>
