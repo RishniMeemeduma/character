@@ -83,7 +83,8 @@ $timing=$_SESSION['timing'];
 </head>
 <body>
 <div class="container">
-	<div class="image">
+	<div class="row">
+	<div id="image" class="col-sm-8">
 	  <img src="<?php echo $img ?>">
 	</div>
 		<script>(function(d, s, id) {
