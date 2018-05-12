@@ -47,7 +47,7 @@ $timing=$_SESSION['timing'];
         }
     .new-request{
         
-		background: rgba(12, 159, 213, 0.78);
+		background: teal;
 		color: #fff;
 		text-align: center;
 		font-size: 24px;
@@ -68,7 +68,8 @@ $timing=$_SESSION['timing'];
 	.fb-share-button{
 		 }
 	.new{
-		 }
+	     background-color: teal;
+	}
 	
 	.image{
 	  }
