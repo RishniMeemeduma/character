@@ -54,7 +54,7 @@ $timing=$_SESSION['timing'];
 		font-size: 24px;
 		 font-family: araliya;
         }
-     .new
+     #new
         {
 		 position: absolute;
 		 display: inline;
