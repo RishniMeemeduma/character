@@ -104,23 +104,8 @@ $u_id=$_SESSION['u_id'];
 				<input type="submit" class="button" name="submit" value="Click here">
 			</form> -->
 
-      <a class="button" href="result_new.php">Click here to find your answer</a>
-			<script>
-	$('.button').click(function (){
-             $.ajax({
-              type:"POST",
-              url:"ready_new.php",  
-              dataType:"json",
-              data:{post:$u_id},
-              success:function(JSONObject){
-                console.log(JSONObject);                
-                create_structure(all_users,JSONObject);
-                
-                }
-           });
-     
-        }	
-			</script>
+      <a class="button" href="result_new.php?u_id=<?php echo $u_id?>">Click here to find your answer</a>
+			
 		</div>	
 	</body>
 </html>
