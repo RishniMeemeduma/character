@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Find your Character</title>
 		  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-		    <meta property="fb:app_id"		content="178728269598594" />
+		    <!--<meta property="fb:app_id"		content="178728269598594" />
 		    <meta property="og:url"          content="https://findcharacter.herokuapp.com/index.php" />
 		    <meta property="og:type"          content="website" />
 		    <meta property="og:title"         content="Find your koombiyo Character" />
@@ -120,26 +120,25 @@ $myimg=$server_output['image'];*/
 /***********************************************************************************************/
 ?>
 
-<div id="share_button" class="fb-share-button"><a href="share.php">
-    Share</a>
+<div id="share_button" class="fb-share-button">
+    Share
 </div>  
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a>
     </div>
- <!--<script type="text/javascript">
+ <script type="text/javascript">
         document.getElementById('share_button').onclick = function() {
                 FB.ui(
                 {
                     method: 'feed',
                     name: 'Your message',
-                    link: 'your site url',
-                    picture: '<?php// echo $baseurl; ?>/your/image/url',
+                    link: 'https://findcharacter.herokuapp.com/result_new.php',
+                    picture: '<?php echo $og_url;?>',
                     caption: 'Image caption',
-                    href: 'https://developers.facebook.com/docs/',
-                    description: '',
+                    href: 'https://findcharacter.herokuapp.com/result_new.php
                     message: 'This is the information that you want to show people.',
                 },function(response){});
             }
-    </script>-->
+    </script>
   </body>
   </html>
 
