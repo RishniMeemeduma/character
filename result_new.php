@@ -56,6 +56,7 @@ $timing=$_SESSION['timing'];
      #new
         {
 	background-color: teal;	 
+	margin-top:19px;
         }
    @media screen and (max-width: 992px) {
 	body {
