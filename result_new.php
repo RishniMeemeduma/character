@@ -117,8 +117,8 @@ $myimg=$server_output['image'];*/
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
   
-  <div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image967209046767984.jpg" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php%3Fimg%3Dhttp%253A%252F%252Fwww.koombiyocharacter.me%252Fjoined_images%252Fjoined_image967209046767984.jpg&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-  <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a></div>
+	<div class="fb-share-button" data-href="https://findcharacter.herokuapp.com/result_new.php?img=&lt;?php echo $img ?&gt;" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php%3Fimg%3D%253C%253Fphp%2Becho%2B%2524img%2B%253F%253E&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+	<div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a></div>
 	
 
   </body>
