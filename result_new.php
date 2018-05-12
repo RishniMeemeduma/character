@@ -126,7 +126,7 @@ $myimg=$server_output['image'];*/
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a>
     </div>
  <script type="text/javascript">
-        document.getElementById('share_button').onclick = function() {
+        function fb_share() {
                 FB.ui(
                 {
                     method: 'feed',
@@ -138,6 +138,9 @@ $myimg=$server_output['image'];*/
                     message: 'This is the information that you want to show people.',
                 },function(response){});
             }
+	 $(document).ready(function(){
+	 $('.fb-share-button').on('click',fb_share);
+	 });
     </script>
   </body>
   </html>
