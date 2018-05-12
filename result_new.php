@@ -91,7 +91,7 @@ $timing=$_SESSION['timing'];
 	
 <div class="container">
 	<div class="row">
-		<div id="image" class="col-lg-8 col-md-8 col-sm-8">
+		<div id="image" class="col-lg-9 col-md-9 col-sm-9">
 		<center>
 		  <img src="<?php echo $img ?>">
 		</center>
@@ -102,7 +102,7 @@ $timing=$_SESSION['timing'];
 		</div>
 		</div>
 	<div class="row">
-		<div id="new" class="col-lg-8 col-md-8 col-sm-8">
+		<div id="new" class="col-lg-9 col-md-9 col-sm-9">
 			<center>
 			<a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Thdf. prsf;;a fu;kska n,d.uq</a>
 			</center>
