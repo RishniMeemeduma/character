@@ -42,7 +42,7 @@ $timing=$_SESSION['timing'];
 		
         }
 	 #share{
-		 margin-top:183px;
+		 margin-top:40px;
 	  }
    	.fb-share-button{
 		  transform: scale(1.5);
