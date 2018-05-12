@@ -38,7 +38,7 @@ $timing=$_SESSION['timing'];
 		margin-top:10px;
 	}
    	 #image {
-         	margin-top: 78px;
+         	margin-top: 40px;
 		
         }
 	 #share{
@@ -77,6 +77,10 @@ $timing=$_SESSION['timing'];
 	.new{
 	     background-color: teal;
 	}
+	.new::after{
+	   	content:"";
+		margin-bottom:15px;
+	   }
 	
 	.image{
 	  }
@@ -97,7 +101,7 @@ $timing=$_SESSION['timing'];
 	
 <div class="container">
 	<div class="row">
-		<div id="image" class="col-lg-9 col-md-9 col-sm-9">
+		<div id="image" class="col-lg-8 col-md-8 col-sm-8">
 		<center>
 		  <img class="img-responsive" src="<?php echo $img ?>">
 		</center>
