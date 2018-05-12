@@ -120,7 +120,7 @@ $myimg=$server_output['image'];*/
 /***********************************************************************************************/
 ?>
 
-  <div id="share_button" class="fb-share-button" onclick="fb_share();">Share</div>  
+  <div id="share_button" class="fb-share-button"><button onclick="fb_share();">Share</button></div>  
   <div class="new"><a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Click here to Find your answer</a></div>
 	
  <script type="text/javascript">
