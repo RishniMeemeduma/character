@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Find your Character</title>
 		  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		    <meta property="og:url"          content="https://findcharacter.herokuapp.com/index.php" />
 		    <meta property="og:type"          content="website" />
 		    <meta property="og:title"         content="Find your koombiyo Character" />
@@ -115,7 +116,7 @@
          $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
          echo '<a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb">Log in with Facebook</a>'
     ?>
-		<div >
+		<div class="container" >
 			<h1 class="topic">Find your Koombiyo Character</h1>
 			<!-- <form action="result.php" method="POST">
 				<label class="question">If There are two people who will you chose</label><br>
