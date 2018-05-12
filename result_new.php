@@ -119,7 +119,9 @@ $myimg=$server_output['image'];*/
 
 ?>
 <!--<img src="data:image/png;base64, <?php //echo $myimg;?>" alt="Red dot" />-->
+<div class="image">
   <img src="<?php echo $img ?>">
+</div>
  <?php
 //curl_close ($ch);
 /***********************************************************************************************/
