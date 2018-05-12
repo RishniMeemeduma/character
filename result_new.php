@@ -1,3 +1,17 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+session_start();
+require_once __DIR__ . '/vendor/autoload.php';
+$u_id=$_SESSION['u_id'];
+$u_name=$_SESSION['u_name'];  
+$time=$_SESSION['time'];
+
+$og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
+?>     
+  
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -85,16 +99,7 @@
 </head>
 <body>
 
-<?php
-session_start();
-require_once __DIR__ . '/vendor/autoload.php';
-$u_id=$_SESSION['u_id'];
-$u_name=$_SESSION['u_name'];  
-$time=$_SESSION['time'];
 
-$og_url="http://www.koombiyocharacter.me/joined_images/joined_image$u_id.jpg";
-?>     
-  
 <?php
 /********************* Randomly select Character form php********************************/        
 /*$characters= array("Hiruni","Priyantha","Adikari","Anjana","Meesha","Ananda","Jude","Thenne","Jehan","Maldeniya","Dog of Maldeniy","Tiran","Ostin aiya","Sudu nangi" );
