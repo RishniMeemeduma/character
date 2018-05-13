@@ -67,6 +67,38 @@ $timing=$_SESSION['timing'];
                  color: #fff;
                  text-decoration: none;
                 }
+	 @media screen and (max-width: 992px){
+		    img{
+		      width:719px;
+		    }
+		    .container{
+		      margin-top: 41px;
+		    }
+		  }
+	@media screen and (max-width: 760px){
+		    img{
+		      width: 584px
+		    }
+		  } 
+	@media screen and (max-width: 609px){
+		    img{
+		      width: 400px;
+		    }
+		    .login-image{
+		      width:199px;
+		    }
+		    #login_to_fb{
+			top:372px;
+		    }
+		  } 
+	@media screen and (max-width: 421px){
+		    img{
+		      width: 300px;
+		    }
+		#login_to_fb{
+			top:296px;
+		    }
+          } 
 
 		</style>
 	</head>
