@@ -40,7 +40,7 @@ $timing=$_SESSION['timing'];
 			}
             .button{
 		  background-color: green;
-            	  position: absolute;
+            	
                   width: inherit;
             	  
             	  top:500px;
@@ -67,6 +67,10 @@ $timing=$_SESSION['timing'];
                  color: #fff;
                  text-decoration: none;
                 }
+	    #link{
+		    position:absolute;
+		    top: 398px;
+		}
 	 @media screen and (max-width: 992px){
 		    img{
 		      width:719px;
@@ -109,7 +113,7 @@ $timing=$_SESSION['timing'];
 						<img src="img/ant.png">
 					</center>
 				</div>
-				<div class="col-lg-offset-2 col-sm-offset-2 col-md-offset-2 col-xs-offset-2 ">
+				<div class="col-lg-offset-2 col-sm-offset-2 col-md-offset-2 col-xs-offset-2 id="link">
 		  			<a class="button" href="result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id.$timing ?>.jpg">Click here to find your answer</a>
 				</div>
 			</div>	
