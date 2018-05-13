@@ -80,13 +80,16 @@
 	      width:199px;
 	    }
 	    #login_to_fb{
-		top:372px
+		top:372px;
 	    }
           } 
         @media screen and (max-width: 421px){
             img{
-              width: 300px
+              width: 300px;
             }
+	#login_to_fb{
+		top:200px;
+	    }
           } 
 		</style>
 	</head>
