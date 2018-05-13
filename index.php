@@ -114,7 +114,7 @@
 			<div class="row">
 				<div class="col-lg-10 col-md-10 col-sm-10">
 					<center>
-						<img src="ant.png">
+						<img src="img/ant.png">
 						<h1 class="topic">Find your Koombiyo Character</h1>
 						<?php
 						    session_start();
