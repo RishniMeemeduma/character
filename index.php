@@ -27,6 +27,7 @@
 					background-color: #3b5998;
 					padding: 20px 30px;
 					 border-radius: 20px;
+		    			font-size:15px;
 					}
 	    .login_to_fb:hover{
 					text-decoration:none;
