@@ -52,7 +52,11 @@
 					  text-decoration: none;
                    			}
 	.login-image{
-					width:390px;
+					   width:390px;
+			}
+	#login_to_fb{
+					    position: absolute;
+   					    top: 414px;
 			}
 
           @media screen and (max-width: 992px){
@@ -72,6 +76,9 @@
             img{
               width: 400px
             }
+	    #login_to_fb{
+		    width:199px;
+		}
           } 
         @media screen and (max-width: 421px){
             img{
@@ -126,7 +133,7 @@
 						      //   $helper = $fb->getPageTabHelper();
 							 $permissions=['email'];
 							 $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
-							 echo '<div class="col-md-offset-4 col-sm-offset-4 col-xs-offset-4 col-md-4 col-sm-4 col-xs-4"><a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb"><img class="login-image" src="https://comedydefensivedriving.com/images2011/fb-sign-in-button.png"></a></div>'
+							 echo '<div id="login_to_fb" class="col-md-offset-3 col-sm-offset-3 col-xs-offset-3 col-md-4 col-sm-4 col-xs-4"><a href="'. htmlspecialchars($loginUrl) .'" ><center><img class="login-image" src="https://comedydefensivedriving.com/images2011/fb-sign-in-button.png"></center></a></div>'
 						    ?>
 					</center>
 				</div>
