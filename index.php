@@ -19,20 +19,7 @@
 					 padding: 20px 20px;
 					 border-radius: 20px;
 					}
-	    .login_to_fb{
-					position: absolute;
-					display: block;
-					left:calc(50% - 100px);
-					top: 285px;
-					background-color: #3b5998;
-					padding: 20px 30px;
-					 border-radius: 20px;
-		    			font-size:15px;
-					}
-	    .login_to_fb:hover{
-					text-decoration:none;
-					color:#fff;
-					}
+	   
             .button{
 					background-color: rgba(255,255,255,0.1);
 					position: absolute;
@@ -64,6 +51,9 @@
 					  color: #fff;
 					  text-decoration: none;
                    			}
+	.login-image{
+					width:390px;
+			}
 
           @media screen and (max-width: 992px){
             img{
@@ -136,7 +126,7 @@
 						      //   $helper = $fb->getPageTabHelper();
 							 $permissions=['email'];
 							 $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
-							 echo '<div class="row"><div class="col-md-offset-4"><a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb"><img src="https://comedydefensivedriving.com/images2011/fb-sign-in-button.png"></a>'
+							 echo '<div class="row"><div class="col-md-offset-4 col-sm-offset-4 col-xs-offset-4 col-md-4 col-sm-4 col-xs-4"><a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb"><img class="login-image" src="https://comedydefensivedriving.com/images2011/fb-sign-in-button.png"></a>'
 						    ?>
 					</center>
 				</div>
