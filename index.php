@@ -88,7 +88,7 @@
               width: 300px;
             }
 	#login_to_fb{
-		top:200px;
+		top:296px;
 	    }
           } 
 		</style>
