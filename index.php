@@ -108,7 +108,7 @@
 						<img src="img/ant.png">
 					</center>
 				</div>
-			</div>			<?php
+					<?php
 						    session_start();
 							  require_once __DIR__ . '/vendor/autoload.php'; // change path as needed
 
