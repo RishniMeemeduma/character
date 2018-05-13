@@ -76,7 +76,7 @@
             img{
               width: 400px
             }
-	    #login_to_fb{
+	    .login_image{
 		    width:199px;
 		}
           } 
