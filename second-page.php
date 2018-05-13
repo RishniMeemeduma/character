@@ -9,14 +9,10 @@ $timing=$_SESSION['timing'];
 	<head>
 		<meta charset="utf-8">
 		<title>Find your Character</title>
-		   
-  
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 		<style type='text/css'>
-		body       {background: url(img/ant.png)no-repeat top ;
-			    background-size: inherit;
-			    position: relative ; 
-			    width:100% ;} 
+		
 			    
 		.topic{ color: #fff;
 		  width: 600px;
