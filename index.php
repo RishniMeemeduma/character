@@ -5,68 +5,7 @@
 		<title>Find your Character</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css"> 
-		<style type='text/css'>
-			    
-		.topic{ color: #fff;
-		  width: 600px;
-                  text-align: center;
-                  position: absolute;
-                  left: calc(50% - 300px);
-                  top: 67px;
-                  background-color: rgba(255,255,255,0.4);
-                  display: block;
-                  padding: 20px 20px;
-                  border-radius: 20px;
-                  }
-	    .login_to_fb{
-		  position: absolute;
-		  display: block;
-		  left:calc(50% - 150px);
-		  top: 318px;
-		  background-color: #3b5998;
-		  padding: 20px 30px;
-		  border-radius: 20px;
-		  font-size:1.8em;
-			}
-	    .login_to_fb:hover{
-		    text-decoration:none;
-		    color:#fff;
-			}
-            .button{background-color: rgba(255,255,255,0.1);
-            			position: absolute;
-                  width: 200px;
-            			left: calc(50% - 100px);
-            			top:calc(50% + 120px);
-            			color: #fff;
-            			font-size: 1.5em;
-            			padding: 20px 20px;
-            			border-radius: 20px;
-            			text-decoration: none;
-
-
-           				}
-           	.button::after{
-           				content: '>>';
-           				padding-left: 5px;
-                  text-decoration: none;
-           				transition:padding-left;
-
-           				}
-            .button:hover{
-                  text-decoration: none;
-                  color: #fff;
-                  }
-           	.button:hover::after{
-           				padding-left: 3px;
-                 
-           				}
-            a     {
-                  color: #fff;
-                  text-decoration: none;
-                   }
-
-          						       
-		</style>
+		
 	</head>
 	<body>
     <?php
