@@ -74,11 +74,11 @@
           } 
         @media screen and (max-width: 609px){
             img{
-              width: 400px
+              width: 400px;
             }
-	    .login_image{
-		    width:199px;
-		}
+	    .login-image{
+	      width:199px;
+	    }
           } 
         @media screen and (max-width: 421px){
             img{
