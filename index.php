@@ -126,7 +126,7 @@
 						      //   $helper = $fb->getPageTabHelper();
 							 $permissions=['email'];
 							 $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
-							 echo '<div class="row"><div class="col-md-offset-4 col-sm-offset-4 col-xs-offset-4 col-md-4 col-sm-4 col-xs-4"><a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb"><img class="login-image" src="https://comedydefensivedriving.com/images2011/fb-sign-in-button.png"></a>'
+							 echo '<div class="col-md-offset-4 col-sm-offset-4 col-xs-offset-4 col-md-4 col-sm-4 col-xs-4"><a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb"><img class="login-image" src="https://comedydefensivedriving.com/images2011/fb-sign-in-button.png"></a></div>'
 						    ?>
 					</center>
 				</div>
