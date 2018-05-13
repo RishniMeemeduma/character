@@ -6,8 +6,6 @@
 		<meta name="viewport content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css"> 
 		<style type='text/css'>
-		body       {
-			    } 
 			    
 		.topic{ color: #fff;
 		  width: 600px;
@@ -67,12 +65,7 @@
                   text-decoration: none;
                    }
 
-           @media screen and (max-width:990px){
-		img{
-		  Width:750px;							       
-		 }
-		}
-									       
+          						       
 		</style>
 	</head>
 	<body>
