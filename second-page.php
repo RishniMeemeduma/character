@@ -13,7 +13,7 @@ $timing=$_SESSION['timing'];
   
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 		<style type='text/css'>
-		body       {background: url(img/ant.jpg)no-repeat top ;
+		body       {background: url(img/ant.png)no-repeat top ;
 			    background-size: inherit;
 			    position: relative ; 
 			    width:100% ;} 
