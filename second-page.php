@@ -95,7 +95,13 @@ $timing=$_SESSION['timing'];
 		   #link{
 			top: 393px;
 			}
-		  } 
+		  }
+	@media screen and (max-width: 430px){
+		  button{
+			padding: 7px 44px;
+			font-size:1.3em;
+			}
+          } 
 	@media screen and (max-width: 421px){
 		    img{
 		      width: 300px;
