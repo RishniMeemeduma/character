@@ -72,31 +72,21 @@ $timing=$_SESSION['timing'];
                  text-decoration: none;
                 }
 
-           	/*form	{width: 600px;
-           				display: block;
-           				position: absolute;
-           				background-color: #fff;
-           				left: 50%;
-           				top: 150px;
-           				padding: 20px 20px;
-    					    border-radius: 10px;
-
-           				}
-           	.question	{
-           				color: #000;
-           				font-size: 1.5em;
-           				}
-           	.question ~ input[type="radio"]{
-           				
-           				margin-right: 5px;
-           				}*/
 		</style>
 	</head>
 	<body>
    
-		<div >
-		  <a class="button" href="result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id.$timing ?>.jpg">Click here to find your answer</a>
-			
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 col-md-4 col-xs-12">
+					<center>
+						<img src="img/ant.png">
+					</center>
+				</div>
+				<div class="col-lg-offset-2 col-sm-offset-2 col-md-offset-2 col-xs-offset-2 ">
+		  			<a class="button" href="result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id.$timing ?>.jpg">Click here to find your answer</a>
+				</div>
+			</div>	
 		</div>	
 	</body>
 </html>
