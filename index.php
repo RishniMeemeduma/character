@@ -6,10 +6,8 @@
 		<meta name="viewport content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css"> 
 		<style type='text/css'>
-		body       {background: url(./ant.jpg)no-repeat top ;
-			    background-size: inherit;
-			    position: relative ; 
-			    width:100% ;} 
+		body       {
+			    } 
 			    
 		.topic{ color: #fff;
 		  width: 600px;
@@ -69,24 +67,7 @@
                   text-decoration: none;
                    }
 
-           	/*form	{width: 600px;
-           				display: block;
-           				position: absolute;
-           				background-color: #fff;
-           				left: 50%;
-           				top: 150px;
-           				padding: 20px 20px;
-    					    border-radius: 10px;
-
-           				}
-           	.question	{
-           				color: #000;
-           				font-size: 1.5em;
-           				}
-           	.question ~ input[type="radio"]{
-           				
-           				margin-right: 5px;
-           				}*/
+           	
 		</style>
 	</head>
 	<body>
@@ -111,7 +92,14 @@
          echo '<a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb">Log in with Facebook</a>'
     ?>
 		<div class="container" >
-			<h1 class="topic">Find your Koombiyo Character</h1>
+			<div class="row">
+			<div class="col-lg-10 col-md-10 col-sm-10">
+			<center>
+				<img src="ant.jpg">
+				<h1 class="topic">Find your Koombiyo Character</h1>
+			</center>
+			</div>
+			</div>
 		</div>	
 	</body>
 </html>
