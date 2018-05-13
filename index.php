@@ -112,10 +112,11 @@
     ?>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-10 col-md-10 col-sm-10">
+				<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
 					<center>
 						<img src="img/ant.png">
-						<h1 class="topic">Find your Koombiyo Character</h1>
+					</center>
+				</div>
 						<?php
 						    session_start();
 							  require_once __DIR__ . '/vendor/autoload.php'; // change path as needed
@@ -134,7 +135,7 @@
 						      //   $helper = $fb->getPageTabHelper();
 							 $permissions=['email'];
 							 $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
-							 echo '<a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb">Log in with Facebook!</a>'
+							 echo '<div class=""><a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb">Log in with Facebook!</a>'
 						    ?>
 					</center>
 				</div>
