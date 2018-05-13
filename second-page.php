@@ -95,17 +95,7 @@ $timing=$_SESSION['timing'];
 	<body>
    
 		<div >
-			<h1 class="topic">Find your Koombiyo Character</h1>
-			<!-- <form action="result.php" method="POST">
-				<label class="question">If There are two people who will you chose</label><br>
-				<input type='radio' name="choice" value="Knife" checked><label class=''>Knife</label><br>
-				<input type='radio' name="choice" value="Gun"><label>Gun</label><br>
-				<input type='radio' name="choice" value="Crackers"><label>Crackers</label><br>
-				<input type='radio' name="choice" value="Run"><label>Run</label><br>
-				<input type="submit" class="button" name="submit" value="Click here">
-			</form> -->
-
-      <a class="button" href="result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id.$timing ?>.jpg">Click here to find your answer</a>
+		  <a class="button" href="result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id.$timing ?>.jpg">Click here to find your answer</a>
 			
 		</div>	
 	</body>
