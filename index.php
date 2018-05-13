@@ -67,7 +67,12 @@
                   text-decoration: none;
                    }
 
-           	
+           @media screen and (max-width:990px){
+		img{
+		  Width:750px;							       
+		 }
+		}
+									       
 		</style>
 	</head>
 	<body>
