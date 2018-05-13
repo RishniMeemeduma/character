@@ -42,7 +42,7 @@ $timing=$_SESSION['timing'];
 		  background-color: green;
             	  position: absolute;
                   width: inherit;
-            	  left: calc(50% - 180px);
+            	  
             	  top:500px;
             	  color: #fff;
             	  font-size: 1.5em;
@@ -84,12 +84,10 @@ $timing=$_SESSION['timing'];
 		    img{
 		      width: 400px;
 		    }
-		    .login-image{
-		      width:199px;
-		    }
-		    #login_to_fb{
-			top:372px;
-		    }
+		   button{
+			top:372;
+			
+		}
 		  } 
 	@media screen and (max-width: 421px){
 		    img{
