@@ -106,9 +106,13 @@ $timing=$_SESSION['timing'];
 		    img{
 		      width: 300px;
 		    }
-		#login_to_fb{
-			top:296px;
+		#link{
+			top:309px;
 		    }
+		.button{
+		    padding: 5px 18px;
+		    font-size:1.0em;
+		}
           } 
 
 		</style>
