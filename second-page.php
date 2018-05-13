@@ -87,11 +87,14 @@ $timing=$_SESSION['timing'];
 	@media screen and (max-width: 609px){
 		    img{
 		      width: 400px;
-		    }
+		    	}
 		   button{
 			top:372;
-			
-		}
+			padding: 12px 36px;
+			}
+		   #link{
+			top: 393px;
+			}
 		  } 
 	@media screen and (max-width: 421px){
 		    img{
