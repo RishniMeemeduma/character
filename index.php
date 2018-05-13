@@ -64,11 +64,29 @@
 					  text-decoration: none;
                    			}
 
-           @media screen and(max-width:990px){
-					img{
-						width:750px;
-					}							      
-					}
+          @media screen and (max-width: 992px){
+            img{
+              width:719px;
+            }
+            .container{
+              margin-top: 41px;
+            }
+          }
+          @media screen and (max-width: 760px){
+            img{
+              width: 584px
+            }
+          } 
+        @media screen and (max-width: 609px){
+            img{
+              width: 400px
+            }
+          } 
+        @media screen and (max-width: 421px){
+            img{
+              width: 300px
+            }
+          } 
 		</style>
 	</head>
 	<body>
@@ -96,7 +114,7 @@
 			<div class="row">
 				<div class="col-lg-10 col-md-10 col-sm-10">
 					<center>
-						<img src="ant.jpg">
+						<img src="ant.png">
 						<h1 class="topic">Find your Koombiyo Character</h1>
 						<?php
 						    session_start();
