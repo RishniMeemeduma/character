@@ -118,7 +118,7 @@
 						<img src="img/ant.png">
 					</center>
 				</div>
-						<?php
+			</div>			<?php
 						    session_start();
 							  require_once __DIR__ . '/vendor/autoload.php'; // change path as needed
 
@@ -136,7 +136,7 @@
 						      //   $helper = $fb->getPageTabHelper();
 							 $permissions=['email'];
 							 $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
-							 echo '<div class=""><a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb">Log in with Facebook!</a>'
+							 echo '<div class="row"><div class="col-md-offset-4"><a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb"><img src="https://comedydefensivedriving.com/images2011/fb-sign-in-button.png"></a>'
 						    ?>
 					</center>
 				</div>
