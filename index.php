@@ -79,9 +79,7 @@
 	    .login-image{
 	      width:199px;
 	    }
-	    #login_to_fb{
-		top:372px;
-	    }
+	  
           } 
         @media screen and (max-width: 421px){
             img{
