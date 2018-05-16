@@ -92,9 +92,7 @@ $timing=$_SESSION['timing'];
 			top:372;
 			padding: 12px 36px;
 			}
-		   #link{
-			top: 393px;
-			}
+		   
 		  }
 	@media screen and (max-width: 430px){
 		  .button{
@@ -106,9 +104,7 @@ $timing=$_SESSION['timing'];
 		    img{
 		      width: 300px;
 		    }
-		#link{
-			top:309px;
-		    }
+	
 		.button{
 		    padding: 5px 18px;
 		    font-size:1.0em;
@@ -138,7 +134,7 @@ $timing=$_SESSION['timing'];
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-11 col-sm-11 col-md-11 col-xs-11" id="link">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" id="link">
 					<center>
 		  			<a class="button" href="result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id.$timing ?>.jpg">Click here to find your answer</a>
 					</center>
