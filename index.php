@@ -131,6 +131,7 @@
 				</div>
 			</div>
 			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="login_to_fb">
 					<?php
 						    session_start();
 							  require_once __DIR__ . '/vendor/autoload.php'; // change path as needed
@@ -149,9 +150,9 @@
 						      //   $helper = $fb->getPageTabHelper();
 							 $permissions=['email'];
 							 $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
-							 echo '<div id="login_to_fb" class="col-md-12 col-sm-12 col-xs-12"><a href="'. htmlspecialchars($loginUrl) .'" ><center><img class="login-image" src="https://comedydefensivedriving.com/images2011/fb-sign-in-button.png"></center></a></div>'
+							 echo '<a href="'. htmlspecialchars($loginUrl) .'" ><center><img class="login-image" src="https://comedydefensivedriving.com/images2011/fb-sign-in-button.png"></center></a>'
 						    ?>
-					</center>
+				
 				</div>
       			</div>
 			
