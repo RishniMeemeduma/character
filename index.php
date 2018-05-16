@@ -152,10 +152,8 @@
 							 $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
 							 echo '<a href="'. htmlspecialchars($loginUrl) .'" ><center><img class="login-image" src="https://comedydefensivedriving.com/images2011/fb-sign-in-button.png"></center></a>'
 						    ?>
-				
 				</div>
       			</div>
-			
 		</div>	
 	</body>
 </html>
