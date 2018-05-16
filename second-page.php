@@ -67,10 +67,7 @@ $timing=$_SESSION['timing'];
                  color: #fff;
                  text-decoration: none;
                 }
-	    #link{
-		    position:absolute;
-		    top: 398px;
-		}
+	 
 	 @media screen and (max-width: 992px){
 		    img{
 		      width:719px;
