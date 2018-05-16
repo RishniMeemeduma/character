@@ -55,8 +55,8 @@
 					   width:390px;
 			}
 	#login_to_fb{
-					    position: absolute;
-   					    top: 414px;
+					 /*   position: absolute;
+   					    top: 414px;*/
 			}
 
           @media screen and (max-width: 992px){
