@@ -85,9 +85,7 @@
             img{
               width: 300px;
             }
-	#login_to_fb{
-		top:296px;
-	    }
+	
           } 
 		</style>
 	<!--**************************Google adsense advertisements**************************-->	
