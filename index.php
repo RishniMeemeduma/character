@@ -129,6 +129,7 @@
 						<img src="img/ant.png">
 					</center>
 				</div>
+			</div>
 			<div class="row">
 					<?php
 						    session_start();
