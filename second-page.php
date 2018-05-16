@@ -136,6 +136,8 @@ $timing=$_SESSION['timing'];
 						<img src="img/ant.png">
 					</center>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col-lg-11 col-sm-11 col-md-11 col-xs-11" id="link">
 					<center>
 		  			<a class="button" href="result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id.$timing ?>.jpg">Click here to find your answer</a>
