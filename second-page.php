@@ -112,12 +112,12 @@ $timing=$_SESSION['timing'];
 		
 	<!--**************************Google adsense advertisements**************************-->
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<script>
-		  (adsbygoogle = window.adsbygoogle || []).push({
-		    google_ad_client: "ca-pub-7327566083992660",
-		    enable_page_level_ads: true
-		  });
-		</script>
+	<script>
+	  (adsbygoogle = window.adsbygoogle || []).push({
+	    google_ad_client: "ca-pub-7327566083992660",
+	    enable_page_level_ads: true
+	  });
+	</script>
 	
 	</head>
 	<body>
