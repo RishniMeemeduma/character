@@ -58,6 +58,15 @@
 					 /*   position: absolute;
    					    top: 414px;*/
 			}
+	#row1{
+						position:relative;
+			}
+	#row2{
+						position:absolute;
+						left:45%;
+						top:49%;
+			
+			}
 
           @media screen and (max-width: 992px){
             img{
@@ -119,14 +128,14 @@
         // echo '<a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb">Log in with Facebook!</a>'
     ?>
 		<div class="container">
-			<div class="row">
+			<div class="row" id="row1">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<center>
 						<img src="img/ant.png">
 					</center>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" id="row2">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="login_to_fb">
 					<?php
 						    session_start();
