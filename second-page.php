@@ -40,10 +40,10 @@ $timing=$_SESSION['timing'];
 			}
             .button{
 		  background-color: green;
-            	
+            	  margin-top: 24px;
                   width: inherit;
             	  
-            	  top:500px;
+            	
             	  color: #fff;
             	  font-size: 1.5em;
             	  padding: 20px 50px;
