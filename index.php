@@ -132,13 +132,29 @@
          $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
         // echo '<a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb">Log in with Facebook!</a>'
     ?>
-		 <div id="navbar1" class="navbar-collapse collapse">
+		 <nav class="navbar navbar-default navbar-fixed-top small">
+		    <div class="container">
+		      <div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="https://www.srifunapp.com"><img src="https://www.srifunapp.com/images/logo.png" alt="SriFunApp">
+			</a>
+		      </div>
+		       <div id="navbar1" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
 			  <li><a href="https://www.srifunapp.com">Home</a></li>
 			  <li><a href="https://www.srifunapp.com/about.php">About</a></li>
 			  <li><a href="https://www.facebook.com/v2.8/dialog/oauth?client_id=676289399391580&state=67149cfb92121c08730dbf1c5d13a1b9&response_type=code&sdk=php-sdk-6.0-dev&redirect_uri=https%3A%2F%2Fwww.srifunapp.com%2Ffb%2Flogin.php&scope=email%2Cuser_friends%2Cuser_photos"><span class="glyphicon glyphicon-user"></span> <strong>Login</strong></a></li>
-			 </ul>
-      </div>
+			</ul>
+		      </div>
+		    
+    		  </div>
+   
+ 		 </nav>
 
 		<div class="container">
 			<div class="row" id="row1">
