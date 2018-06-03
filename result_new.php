@@ -42,7 +42,7 @@ $timing=$_SESSION['timing'];
 		
         }
 	#container{
-	  margin-top: 27px;
+	  margin-top: 70px;
 	  }
 	 #share{
 		 margin-top:40px;
