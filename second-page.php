@@ -67,7 +67,11 @@ $timing=$_SESSION['timing'];
                  color: #fff;
                  text-decoration: none;
                 }
-	 
+	 img			{
+					vertical-align: middle;
+					margin-top: 13px;
+					width: 560px;
+			}
 	 @media screen and (max-width: 992px){
 		    img{
 		      width:719px;
