@@ -34,6 +34,9 @@ $timing=$_SESSION['timing'];
 		  padding: 20px 30px;
 		  border-radius: 20px;
 			}
+	    #container{
+		        margin-top: 50px;
+			}
 	    .login_to_fb:hover{
 		    text-decoration:none;
 		    color:#fff;
@@ -151,7 +154,7 @@ $timing=$_SESSION['timing'];
     		  </div>
    
  		 </nav>
-		<div class="container">
+		<div class="container" id="container">
 			<div class="row">
 				<div class="col-lg-12 col-sm-12 col-md-4 col-xs-12">
 					<center>
