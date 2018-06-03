@@ -24,7 +24,7 @@
 					margin-top: 13px;
 					width: 560px;
 			}
-		.container		{    margin-top: 47px;
+		#container		{    margin-top: 47px;
 			}
 	   
             .button{
@@ -135,7 +135,7 @@
         // echo '<a href="'. htmlspecialchars($loginUrl) .'" class="login_to_fb">Log in with Facebook!</a>'
     ?>
 		 <nav class="navbar navbar-default navbar-fixed-top small">
-		    <div class="container">
+		    <div class="container" >
 		      <div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
 			  <span class="sr-only">Toggle navigation</span>
@@ -158,7 +158,7 @@
    
  		 </nav>
 
-		<div class="container">
+		<div class="container" id="container">
 			<div class="row" id="row1">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<center>
