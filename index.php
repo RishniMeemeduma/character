@@ -52,7 +52,7 @@
            				   padding-left: 3px;
                  
            				}
-            a     {
+            .a     {
 					  color: #fff;
 					  text-decoration: none;
                    			}
@@ -168,7 +168,7 @@
 						      //   $helper = $fb->getPageTabHelper();
 							 $permissions=['email'];
 							 $loginUrl =$helper->getLoginUrl('https://findcharacter.herokuapp.com/login-callback.php',$permissions);
-							 echo '<a href="'. htmlspecialchars($loginUrl) .'" ><center><img class="login-image" src="https://comedydefensivedriving.com/images2011/fb-sign-in-button.png"></center></a>'
+							 echo '<a href="'. htmlspecialchars($loginUrl) .'" class="a" ><center><img class="login-image" src="https://comedydefensivedriving.com/images2011/fb-sign-in-button.png"></center></a>'
 						    ?>
 				</div>
       			</div>
