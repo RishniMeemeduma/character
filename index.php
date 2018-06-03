@@ -19,6 +19,11 @@
 					 padding: 20px 20px;
 					 border-radius: 20px;
 					}
+		img			{
+					vertical-align: middle;
+					margin-top: 13px;
+					width: 560px;
+			}
 	   
             .button{
 					background-color: rgba(255,255,255,0.1);
