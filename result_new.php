@@ -41,6 +41,9 @@ $timing=$_SESSION['timing'];
          	margin-top: 40px;
 		
         }
+	#container{
+	  margin-top: 27px;
+	  }
 	 #share{
 		 margin-top:40px;
 	  }
@@ -132,7 +135,7 @@ $timing=$_SESSION['timing'];
    
  		 </nav>
 	
-		<div class="container">
+		<div class="container" id='container'>
 			<div class="row">
 				<div id="image" class="col-lg-8 col-md-8 col-sm-8">
 				<center>
