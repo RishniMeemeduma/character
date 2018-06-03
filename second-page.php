@@ -50,6 +50,9 @@ $timing=$_SESSION['timing'];
             	  border-radius: 20px;
             	  text-decoration: none;
 		}
+	   #link {
+		   margin-top:24px;
+			}
            .button::after{
            	 content: '>>';
            	 padding-left: 5px;
