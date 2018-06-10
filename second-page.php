@@ -165,7 +165,7 @@ $timing=$_SESSION['timing'];
 			<div class="row">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" id="link">
 					<center>
-		  			<a class="button" href="result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id.$timing ?>.jpg">Click here to find your answer</a>
+		  			<a class="button" href="result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id.$timing ?>.jpg">මේක ඔයා අන්ස්වර් කර්න්නම ඕන කොල් එකක්</a>
 					</center>
 				</div>
 			</div>	
