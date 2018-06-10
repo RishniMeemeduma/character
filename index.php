@@ -26,6 +26,9 @@
 			}
 		#container		{    margin-top: 47px;
 			}
+	   .container{			
+		   			width:760px
+			}
 	   
             .button{
 					background-color: rgba(255,255,255,0.1);
