@@ -79,15 +79,19 @@
             img{
               width:719px;
             }
-            .container{
+            /*.container{
               margin-top: 41px;
-            }
+            }*/
           }
           @media screen and (max-width: 760px){
             img{
               width: 584px
             }
           } 
+	@media (min-width: 768px){
+		.container {
+			width:986px;
+		}}
         @media screen and (max-width: 609px){
             img{
               width: 400px;
