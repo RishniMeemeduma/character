@@ -24,13 +24,14 @@
 					margin-top: 13px;
 					/*width: 560px;*/
 			}
-		#container		{    margin-top: 65px;
+		#container	{	margin-top: 65px;
+			    		background-color: currentColor;
 			}
-	   #nav{			
+	  	#nav{			
 		   			/*width:760px*/
 			}
 	   
-            .button{
+            	.button{
 					background-color: rgba(255,255,255,0.1);
 					position: absolute;
 					width: 200px;
@@ -42,36 +43,36 @@
 					border-radius: 20px;
 					text-decoration: none;
 					}
-           .button::after{
+           	.button::after{
            				content: '>>';
            				padding-left: 5px;
                   			text-decoration: none;
            				transition:padding-left;
 
            				}
-            .button:hover{
+            	.button:hover{
 					  text-decoration: none;
 					  color: #fff;
                  			 }
-           .button:hover::after{
+           	.button:hover::after{
            				   padding-left: 3px;
                  
            				}
-            .a     {
+            	.a     {
 					  color: #fff;
 					  text-decoration: none;
                    			}
-	.login-image{
+		.login-image{
 					   width:273px;
 			}
-	#login_to_fb{
+		#login_to_fb{
 					 /*   position: absolute;
    					    top: 414px;*/
 			}
-	#row1{
+		#row1{
 						position:relative;
 			}
-	#row2{
+		#row2{
 						/*position:absolute;
 						left:45%;
 						top:49%;*/
