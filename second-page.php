@@ -82,9 +82,9 @@ $timing=$_SESSION['timing'];
 		    img{
 		      width:719px;
 		    }
-		    .container{
+		    /*.container{
 		      margin-top: 41px;
-		    }
+		    }*/
 		  }
 	@media screen and (max-width: 760px){
 		    img{
