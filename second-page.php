@@ -73,13 +73,13 @@ $timing=$_SESSION['timing'];
                  color: #fff;
                  text-decoration: none;
                 }
-	 img			{
+	 .bg			{
 					vertical-align: middle;
 					margin-top: 13px;
-					width: 560px;
+					/*width: 560px;*/
 			}
 	 @media screen and (max-width: 992px){
-		    img{
+		    .bg{
 		      width:719px;
 		    }
 		    /*.container{
@@ -87,12 +87,12 @@ $timing=$_SESSION['timing'];
 		    }*/
 		  }
 	@media screen and (max-width: 760px){
-		    img{
+		    .bg{
 		      width: 584px
 		    }
 		  } 
 	@media screen and (max-width: 609px){
-		    img{
+		    .bg{
 		      width: 400px;
 		    	}
 		   .button{
@@ -108,7 +108,7 @@ $timing=$_SESSION['timing'];
 			}
           } 
 	@media screen and (max-width: 421px){
-		    img{
+		    .bg{
 		      width: 300px;
 		    }
 	
@@ -158,7 +158,7 @@ $timing=$_SESSION['timing'];
 			<div class="row">
 				<div class="col-lg-12 col-sm-12 col-md-4 col-xs-12">
 					<center>
-						<img src="img/second.jpg">
+						<img class="bg" src="img/second.jpg">
 					</center>
 				</div>
 			</div>
