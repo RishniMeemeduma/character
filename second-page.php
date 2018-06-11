@@ -158,7 +158,7 @@ $timing=$_SESSION['timing'];
 			<div class="row">
 				<div class="col-lg-12 col-sm-12 col-md-4 col-xs-12">
 					<center>
-						<img src="img/second.png">
+						<img src="img/second.jpg">
 					</center>
 				</div>
 			</div>
