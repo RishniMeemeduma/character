@@ -27,7 +27,7 @@
 		#container		{    margin-top: 47px;
 			}
 	   #nav{			
-		   			width:760px
+		   			/*width:760px*/
 			}
 	   
             .button{
