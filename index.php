@@ -24,7 +24,7 @@
 					margin-top: 13px;
 					/*width: 560px;*/
 			}
-		#container		{    margin-top: 47px;
+		#container		{    margin-top: 65px;
 			}
 	   #nav{			
 		   			/*width:760px*/
