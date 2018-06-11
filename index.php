@@ -19,7 +19,7 @@
 					 padding: 20px 20px;
 					 border-radius: 20px;
 					}
-		img			{
+		.logo			{
 					vertical-align: middle;
 					margin-top: 13px;
 					/*width: 560px;*/
@@ -87,7 +87,7 @@
             }*/
           }
           @media screen and (max-width: 760px){
-            img{
+            .logo{
               width: 584px
             }
           } 
@@ -96,7 +96,7 @@
 			width:986px;
 		}}
         @media screen and (max-width: 609px){
-            img{
+            .logo{
               width: 400px;
             }
 	    .login-image{
@@ -105,7 +105,7 @@
 	  
           } 
         @media screen and (max-width: 421px){
-            img{
+            .logo{
               width: 300px;
             }
 	
@@ -150,7 +150,7 @@
 			  <span class="icon-bar"></span>
 			  <span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href=""><img src="" alt="FunApp">
+			<a class="navbar-brand" href=""><img  src="" alt="FunApp">
 			</a>
 		      </div>
 		       <div id="navbar1" class="navbar-collapse collapse">
@@ -169,7 +169,7 @@
 			<div class="row" id="row1">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<center>
-						<img src="img/ant.png">
+						<img class="logo" src="img/ant.png">
 					</center>
 				</div>
 			</div>
