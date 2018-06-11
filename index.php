@@ -86,6 +86,9 @@
             /*.container{
               margin-top: 41px;
             }*/
+	    .logo{
+		  width: 714px;
+		  }
           }
           @media screen and (max-width: 760px){
             .logo{
