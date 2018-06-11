@@ -22,7 +22,7 @@
 		img			{
 					vertical-align: middle;
 					margin-top: 13px;
-					width: 560px;
+					/*width: 560px;*/
 			}
 		#container		{    margin-top: 47px;
 			}
@@ -79,9 +79,9 @@
 			}
 
           @media screen and (max-width: 992px){
-            img{
+           /* img{
               width:719px;
-            }
+            }*/
             /*.container{
               margin-top: 41px;
             }*/
