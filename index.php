@@ -66,8 +66,8 @@
 					   width:273px;
 			}
 		#login_to_fb{
-					 /*   position: absolute;
-   					    top: 414px;*/
+					padding-top: 10px;
+    					padding-bottom: 21px;
 			}
 		#row1{
 						position:relative;
