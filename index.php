@@ -93,9 +93,9 @@
             }
           } 
 	@media (min-width: 768px){
-		.container {
+		/*.container {
 			width:986px;
-		}}
+		}*/}
         @media screen and (max-width: 609px){
             .logo{
               width: 400px;
