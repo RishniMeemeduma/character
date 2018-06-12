@@ -140,7 +140,7 @@ $timing=$_SESSION['timing'];
 			  <span class="icon-bar"></span>
 			  <span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="https://www.srifunapp.com"><img src="" alt="CreativeApp">
+			<a class="navbar-brand" href=""><img src="" alt="CreativeApp">
 			</a>
 		      </div>
 		       <div id="navbar1" class="navbar-collapse collapse">
