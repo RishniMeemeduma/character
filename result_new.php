@@ -29,8 +29,10 @@ $timing=$_SESSION['timing'];
 		src: url(fonts/ARALIYA.TTF);
 	}
     	body{
-       	 background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) repeat center;
-       	 background-size:cover;
+       	 /*background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) repeat center;
+       	*/
+		background-color:black;
+		background-size:cover;
 	
         }
 	.container{
