@@ -58,7 +58,7 @@ $timing=$_SESSION['timing'];
         }
     .new-request{
         
-		background: teal;
+		
 		color: #fff;
 		text-align: center;
 		font-size: 24px;
