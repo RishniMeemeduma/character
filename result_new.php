@@ -67,9 +67,9 @@ $timing=$_SESSION['timing'];
         }
      #new
         {
-	background-color: teal;	 
+	background-color:#222432;;	 
 	margin-top:19px;
-	border-radius:25%;
+	
         }
    @media screen and (max-width:990px) {
 	body {
