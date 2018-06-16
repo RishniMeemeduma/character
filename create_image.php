@@ -3,7 +3,7 @@
 session_start();
 $u_id=$_SESSION['u_id'];
 $u_name=$_SESSION['u_name'];  
-$timing=date('s');
+$timing=date('mds');
 echo $timing;
 $_SESSION['timing'] =(string) $timing;
 /********************* Randomly select Character form php********************************/        
