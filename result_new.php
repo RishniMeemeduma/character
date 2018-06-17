@@ -157,7 +157,7 @@ $timing=$_SESSION['timing'];
 			<div class="row" style="margin-bottom:15px">
 				<div id="new" class="col-lg-9 col-md-9 col-sm-9">
 					<center>
-					<a class="new-request" href="https://findcharacter.herokuapp.com/index.php">f.aula .y,d Thd;a ljqre jf.ao n,uq fu;kska</a>
+					<a class="new-request" href="https://findcharacter.herokuapp.com/index.php">Thd l+ôfhda tfla ljqre jf.ao@fydhd.kak'</a>
 					</center>
 				</div>
 			</div>
