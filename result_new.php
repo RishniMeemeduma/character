@@ -25,8 +25,8 @@ $timing=$_SESSION['timing'];
 	
   <style>
  	@font-face {
-		font-family: araliya;
-		src: url(fonts/ARALIYA.TTF);
+		font-family: abaya;
+		src: url(fonts/3_FM_Abhaya.TTF);
 	}
     	body{
        	 /*background:url(https://thumbs.dreamstime.com/b/shiny-silver-foil-texture-background-decor-white-grey-metallic-85153852.jpg) repeat center;
