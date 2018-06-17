@@ -12,7 +12,7 @@ $timing=$_SESSION['timing'];
 <html>
 	<head>
 	<meta charset="utf-8">
-	<title>Find your Character</title>
+	<title>FunApp-What is your koombiyo character</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
