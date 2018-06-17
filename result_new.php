@@ -62,7 +62,7 @@ $timing=$_SESSION['timing'];
 		color: #fff;
 		text-align: center;
 		font-size: 24px;
-		 font-family: araliya;
+		 font-family: abaya;
 	    
         }
      #new
