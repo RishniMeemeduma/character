@@ -14,7 +14,8 @@ $v = $characters[$k];
 /*****************************Using Curl Send and get the Image from webhost*****************/
 $ch = curl_init();
       
-curl_setopt($ch, CURLOPT_URL,"http://koombiyoweb.000webhostapp.com/result_new.php");
+//curl_setopt($ch, CURLOPT_URL,"http://koombiyoweb.000webhostapp.com/result_new.php");
+curl_setopt($ch, CURLOPT_URL,"https://www.createfunapps.com/result_new.php");
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS,"uname=$u_name&cname=$v&id=$u_id&timing=$timing");
 // in real life you should use something like:
