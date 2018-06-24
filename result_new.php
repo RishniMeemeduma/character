@@ -23,6 +23,7 @@ $timing=$_SESSION['timing'];
 	<meta property="og:description"   content="Koombiyo is a famous teledarama and you may like to check which character in koombiyo looks like you." />
 	<meta property="og:image"         content="<?php echo $img ?>" />
 	
+	<link rel="stylesheet" href="scrolling-nav.css">
   <style>
  	@font-face {
 		font-family: abaya;
