@@ -147,7 +147,7 @@ $timing=$_SESSION['timing'];
 
 				<div id="share" class="col-lg-3 col-md-3 col-sm-3">
 				<center>
-				<div data-href="https://findcharacter.herokuapp.com/result_new.php?img=<?php echo $img ?>" data-mobile-iframe="true">
+				<div data-href="https://www.createfunapps.com/result_new.php?img=<?php echo $img ?>" data-mobile-iframe="true">
 					<a class="fb-xfbml-parse-ignore"  onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;" 
 					   href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffindcharacter.herokuapp.com%2Fresult_new.php%3Fimg=<?php echo $img?>&src=sdkpreparse" >
 					<img src="img/Facebook-share-button.png"></a></div>
