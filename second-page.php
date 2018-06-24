@@ -165,7 +165,8 @@ $timing=$_SESSION['timing'];
 			<div class="row">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" id="link">
 					<center>
-		  			<a class="button" href="result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image<?php echo $u_id.$timing ?>.jpg">Try Here</a>
+		  			<!--<a class="button" href="result_new.php?img=http://www.koombiyocharacter.me/joined_images/joined_image<?php //echo $u_id.$timing ?>.jpg">Try Here</a>-->
+					<a class="button" href="result_new.php?img=https://www.createfunapps.com/joined_images/joined_image<?php echo $u_id.$timing ?>.jpg">Try Here</a>
 					</center>
 				</div>
 			</div>	
