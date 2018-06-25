@@ -73,7 +73,7 @@ $_SESSION['fb_access_token'] = (string) $accessToken;
 //header('Location: https://example.com/members.php');
 try {
   // Returns a `Facebook\FacebookResponse` object
-  $response = $fb->get('/me?fields=id,name,picture',$_SESSION['fb_access_token']);
+  $response = $fb->get('/me?fields=id,name,first_name,picture',$_SESSION['fb_access_token']);
 } catch(Facebook\Exceptions\FacebookResponseException $e) {
   echo 'Graph returned an error: ' . $e->getMessage();
   exit;
@@ -86,7 +86,8 @@ $user = $response->getGraphUser();
 /*************************************Get User Informations from facebook*************/        
 /*echo 'Name: ' . $user['name'];*/
 $u_id=$user['id'];
-  $u_name=$user['name'];
+ // $u_name=$user['name'];
+$u_name=$user['first_name'];
 $picture=$user['picture'];
 $pc = json_decode($picture);
 $_SESSION['u_id']=(string) $u_id;
