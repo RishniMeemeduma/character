@@ -126,7 +126,7 @@ $timing=$_SESSION['timing'];
 			<a class="navbar-brand" href=""><img src="" alt="FunApp">
 			</a>
 		      </div>
-		       <div id="navbar1" class="navbar-collapse collapse">
+		       <div id="codebrainery-toggle-nav" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
 			  <li><a href="https://www.createfunapps.com/home.php">Home</a></li>
 			  <li><a href="https://findcharacter.herokuapp.com/about.php">About</a></li>
