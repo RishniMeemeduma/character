@@ -133,7 +133,7 @@ $timing=$_SESSION['timing'];
 		      </div>
 		       <div id="navbar1" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
-			  <li><a href="https://www.createfunapps.com/home.php">Home</a></li>
+			  <li><a href="https://www.createfunapps.com">Home</a></li>
 			  <li><a href="https://findcharacter.herokuapp.com/about.php">About</a></li>
 			  <!--<li><a href="https://www.facebook.com/v2.8/dialog/oauth?client_id=676289399391580&state=67149cfb92121c08730dbf1c5d13a1b9&response_type=code&sdk=php-sdk-6.0-dev&redirect_uri=https%3A%2F%2Fwww.srifunapp.com%2Ffb%2Flogin.php&scope=email%2Cuser_friends%2Cuser_photos"><span class="glyphicon glyphicon-user"></span> <strong>Login</strong></a></li>
 			--></ul>
